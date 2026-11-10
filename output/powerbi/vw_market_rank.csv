@@ -1,0 +1,207 @@
+facility_id,measure_id,value,denominator,low_volume_flag,facility_name,health_system,is_focus_system,measure_label,unit,higher_is_better,domain,market_rank,market_n,market_avg
+030103,H_HSP_RATING_9_10,91.0,,0,Mayo Clinic Hospital,Mayo Clinic,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,1,38,69.34
+030146,H_HSP_RATING_9_10,86.0,,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,2,38,69.34
+030138,H_HSP_RATING_9_10,82.0,,0,City Of Hope Cancer Center Phoenix,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,3,38,69.34
+030123,H_HSP_RATING_9_10,81.0,,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,4,38,69.34
+030136,H_HSP_RATING_9_10,80.0,,0,Dignity Health Arizona General Hospital,Dignity Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,5,38,69.34
+030112,H_HSP_RATING_9_10,78.0,,0,Arizona Orthopedic And Surgical Specialty Hospital,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,6,38,69.34
+030139,H_HSP_RATING_9_10,78.0,,0,Dignity Health Arizona General Hospital,Dignity Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,6,38,69.34
+030107,H_HSP_RATING_9_10,77.0,,0,Arizona Spine And Joint Hospital,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,8,38,69.34
+030152,H_HSP_RATING_9_10,77.0,,0,Exceptional Community Hospital Maricopa,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,8,38,69.34
+030038,H_HSP_RATING_9_10,76.0,,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,10,38,69.34
+030119,H_HSP_RATING_9_10,75.0,,0,Mercy Gilbert Medical Center,Dignity Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,11,38,69.34
+030022,H_HSP_RATING_9_10,74.0,,0,Valleywise Health Medical Center,Valleywise Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,12,38,69.34
+030147,H_HSP_RATING_9_10,74.0,,0,Banner Ocotillo Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,12,38,69.34
+030024,H_HSP_RATING_9_10,73.0,,0,St Josephs Hospital And Medical Center,Dignity Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,14,38,69.34
+030108,H_HSP_RATING_9_10,73.0,,0,The Core Institute Specialty Hospital,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,14,38,69.34
+030014,H_HSP_RATING_9_10,72.0,,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,16,38,69.34
+030078,H_HSP_RATING_9_10,72.0,,0,Phoenix Indian Medical Center,Independent / Other,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,16,38,69.34
+030092,H_HSP_RATING_9_10,72.0,,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,16,38,69.34
+030036,H_HSP_RATING_9_10,71.0,,0,Chandler Regional Medical Center,Dignity Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,19,38,69.34
+030087,H_HSP_RATING_9_10,71.0,,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,19,38,69.34
+030105,H_HSP_RATING_9_10,71.0,,0,Banner Heart Hospital,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,19,38,69.34
+030130,H_HSP_RATING_9_10,71.0,,0,Banner Ironwood Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,19,38,69.34
+030122,H_HSP_RATING_9_10,69.0,,0,Banner Gateway Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,23,38,69.34
+030134,H_HSP_RATING_9_10,69.0,,0,Banner Goldfield Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,23,38,69.34
+030002,H_HSP_RATING_9_10,68.0,,0,Banner-University Medical Center Phoenix,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,25,38,69.34
+030115,H_HSP_RATING_9_10,67.0,,0,Banner Estrella Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,26,38,69.34
+030088,H_HSP_RATING_9_10,61.0,,0,Banner Baywood Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,27,38,69.34
+030083,H_HSP_RATING_9_10,60.0,,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,Rated Hospital 9-10 (%),pct,1,Patient Experience,28,38,69.34
+030121,H_HSP_RATING_9_10,60.0,,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,28,38,69.34
+030093,H_HSP_RATING_9_10,59.0,,0,Banner Del E. Webb Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,30,38,69.34
+030016,H_HSP_RATING_9_10,58.0,,0,Banner Casa Grande Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,31,38,69.34
+030030,H_HSP_RATING_9_10,58.0,,0,Abrazo Central Campus,Abrazo (Tenet),0,Rated Hospital 9-10 (%),pct,1,Patient Experience,31,38,69.34
+030061,H_HSP_RATING_9_10,58.0,,0,Banner Boswell Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,31,38,69.34
+030094,H_HSP_RATING_9_10,58.0,,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,Rated Hospital 9-10 (%),pct,1,Patient Experience,31,38,69.34
+030065,H_HSP_RATING_9_10,57.0,,0,Banner Desert Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,35,38,69.34
+030089,H_HSP_RATING_9_10,57.0,,0,Banner Thunderbird Medical Center,Banner Health,0,Rated Hospital 9-10 (%),pct,1,Patient Experience,35,38,69.34
+030037,H_HSP_RATING_9_10,52.0,,0,HonorHealth Tempe Medical Center,HonorHealth,1,Rated Hospital 9-10 (%),pct,1,Patient Experience,37,38,69.34
+030110,H_HSP_RATING_9_10,49.0,,0,Abrazo West Campus,Abrazo (Tenet),0,Rated Hospital 9-10 (%),pct,1,Patient Experience,38,38,69.34
+030103,H_RECMND_DY,93.0,,0,Mayo Clinic Hospital,Mayo Clinic,0,Would Definitely Recommend (%),pct,1,Patient Experience,1,38,69.58
+030138,H_RECMND_DY,86.0,,0,City Of Hope Cancer Center Phoenix,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,2,38,69.58
+030123,H_RECMND_DY,84.0,,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,3,38,69.58
+030146,H_RECMND_DY,84.0,,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,3,38,69.58
+030107,H_RECMND_DY,81.0,,0,Arizona Spine And Joint Hospital,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,5,38,69.58
+030139,H_RECMND_DY,81.0,,0,Dignity Health Arizona General Hospital,Dignity Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,5,38,69.58
+030112,H_RECMND_DY,79.0,,0,Arizona Orthopedic And Surgical Specialty Hospital,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,7,38,69.58
+030038,H_RECMND_DY,77.0,,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,8,38,69.58
+030119,H_RECMND_DY,77.0,,0,Mercy Gilbert Medical Center,Dignity Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,8,38,69.58
+030152,H_RECMND_DY,77.0,,0,Exceptional Community Hospital Maricopa,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,8,38,69.58
+030024,H_RECMND_DY,75.0,,0,St Josephs Hospital And Medical Center,Dignity Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,11,38,69.58
+030108,H_RECMND_DY,75.0,,0,The Core Institute Specialty Hospital,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,11,38,69.58
+030147,H_RECMND_DY,74.0,,0,Banner Ocotillo Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,13,38,69.58
+030122,H_RECMND_DY,73.0,,0,Banner Gateway Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,14,38,69.58
+030136,H_RECMND_DY,73.0,,0,Dignity Health Arizona General Hospital,Dignity Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,14,38,69.58
+030014,H_RECMND_DY,72.0,,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,16,38,69.58
+030022,H_RECMND_DY,72.0,,0,Valleywise Health Medical Center,Valleywise Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,16,38,69.58
+030036,H_RECMND_DY,72.0,,0,Chandler Regional Medical Center,Dignity Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,16,38,69.58
+030087,H_RECMND_DY,72.0,,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,16,38,69.58
+030092,H_RECMND_DY,72.0,,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,16,38,69.58
+030105,H_RECMND_DY,71.0,,0,Banner Heart Hospital,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,21,38,69.58
+030130,H_RECMND_DY,71.0,,0,Banner Ironwood Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,21,38,69.58
+030134,H_RECMND_DY,71.0,,0,Banner Goldfield Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,21,38,69.58
+030078,H_RECMND_DY,70.0,,0,Phoenix Indian Medical Center,Independent / Other,0,Would Definitely Recommend (%),pct,1,Patient Experience,24,38,69.58
+030002,H_RECMND_DY,68.0,,0,Banner-University Medical Center Phoenix,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,25,38,69.58
+030115,H_RECMND_DY,68.0,,0,Banner Estrella Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,25,38,69.58
+030061,H_RECMND_DY,62.0,,0,Banner Boswell Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,27,38,69.58
+030121,H_RECMND_DY,60.0,,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,28,38,69.58
+030093,H_RECMND_DY,59.0,,0,Banner Del E. Webb Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,29,38,69.58
+030065,H_RECMND_DY,58.0,,0,Banner Desert Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,30,38,69.58
+030016,H_RECMND_DY,57.0,,0,Banner Casa Grande Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,31,38,69.58
+030088,H_RECMND_DY,57.0,,0,Banner Baywood Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,31,38,69.58
+030089,H_RECMND_DY,57.0,,0,Banner Thunderbird Medical Center,Banner Health,0,Would Definitely Recommend (%),pct,1,Patient Experience,31,38,69.58
+030094,H_RECMND_DY,56.0,,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,Would Definitely Recommend (%),pct,1,Patient Experience,34,38,69.58
+030030,H_RECMND_DY,54.0,,0,Abrazo Central Campus,Abrazo (Tenet),0,Would Definitely Recommend (%),pct,1,Patient Experience,35,38,69.58
+030083,H_RECMND_DY,54.0,,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,Would Definitely Recommend (%),pct,1,Patient Experience,35,38,69.58
+030037,H_RECMND_DY,53.0,,0,HonorHealth Tempe Medical Center,HonorHealth,1,Would Definitely Recommend (%),pct,1,Patient Experience,37,38,69.58
+030110,H_RECMND_DY,49.0,,0,Abrazo West Campus,Abrazo (Tenet),0,Would Definitely Recommend (%),pct,1,Patient Experience,38,38,69.58
+030103,H_STAR_RATING,5.0,1947.0,0,Mayo Clinic Hospital,Mayo Clinic,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,1,36,2.83
+030078,H_STAR_RATING,4.0,192.0,0,Phoenix Indian Medical Center,Independent / Other,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030107,H_STAR_RATING,4.0,150.0,0,Arizona Spine And Joint Hospital,Independent / Other,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030108,H_STAR_RATING,4.0,245.0,0,The Core Institute Specialty Hospital,Independent / Other,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030112,H_STAR_RATING,4.0,390.0,0,Arizona Orthopedic And Surgical Specialty Hospital,Independent / Other,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030138,H_STAR_RATING,4.0,239.0,0,City Of Hope Cancer Center Phoenix,Independent / Other,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030139,H_STAR_RATING,4.0,596.0,0,Dignity Health Arizona General Hospital,Dignity Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030146,H_STAR_RATING,4.0,462.0,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,2,36,2.83
+030014,H_STAR_RATING,3.0,576.0,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030022,H_STAR_RATING,3.0,783.0,0,Valleywise Health Medical Center,Valleywise Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030024,H_STAR_RATING,3.0,712.0,0,St Josephs Hospital And Medical Center,Dignity Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030036,H_STAR_RATING,3.0,476.0,0,Chandler Regional Medical Center,Dignity Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030038,H_STAR_RATING,3.0,431.0,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030087,H_STAR_RATING,3.0,560.0,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030092,H_STAR_RATING,3.0,558.0,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030105,H_STAR_RATING,3.0,913.0,0,Banner Heart Hospital,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030115,H_STAR_RATING,3.0,882.0,0,Banner Estrella Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030119,H_STAR_RATING,3.0,553.0,0,Mercy Gilbert Medical Center,Dignity Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030122,H_STAR_RATING,3.0,792.0,0,Banner Gateway Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030123,H_STAR_RATING,3.0,395.0,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030130,H_STAR_RATING,3.0,467.0,0,Banner Ironwood Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030134,H_STAR_RATING,3.0,129.0,0,Banner Goldfield Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030147,H_STAR_RATING,3.0,416.0,0,Banner Ocotillo Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,9,36,2.83
+030002,H_STAR_RATING,2.0,1209.0,0,Banner-University Medical Center Phoenix,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030016,H_STAR_RATING,2.0,488.0,0,Banner Casa Grande Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030037,H_STAR_RATING,2.0,125.0,0,HonorHealth Tempe Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030061,H_STAR_RATING,2.0,884.0,0,Banner Boswell Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030065,H_STAR_RATING,2.0,1116.0,0,Banner Desert Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030083,H_STAR_RATING,2.0,557.0,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030088,H_STAR_RATING,2.0,695.0,0,Banner Baywood Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030089,H_STAR_RATING,2.0,1165.0,0,Banner Thunderbird Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030093,H_STAR_RATING,2.0,865.0,0,Banner Del E. Webb Medical Center,Banner Health,0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030094,H_STAR_RATING,2.0,1617.0,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030121,H_STAR_RATING,2.0,688.0,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,HCAHPS Patient Experience Star,stars,1,Patient Experience,24,36,2.83
+030030,H_STAR_RATING,1.0,325.0,0,Abrazo Central Campus,Abrazo (Tenet),0,HCAHPS Patient Experience Star,stars,1,Patient Experience,35,36,2.83
+030110,H_STAR_RATING,1.0,1040.0,0,Abrazo West Campus,Abrazo (Tenet),0,HCAHPS Patient Experience Star,stars,1,Patient Experience,35,36,2.83
+030103,OVERALL_STAR,5.0,,0,Mayo Clinic Hospital,Mayo Clinic,0,CMS Overall Star Rating,stars,1,Overall,1,31,3.16
+030119,OVERALL_STAR,5.0,,0,Mercy Gilbert Medical Center,Dignity Health,0,CMS Overall Star Rating,stars,1,Overall,1,31,3.16
+030123,OVERALL_STAR,5.0,,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,1,31,3.16
+030134,OVERALL_STAR,5.0,,0,Banner Goldfield Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,1,31,3.16
+030139,OVERALL_STAR,5.0,,0,Dignity Health Arizona General Hospital,Dignity Health,0,CMS Overall Star Rating,stars,1,Overall,1,31,3.16
+030024,OVERALL_STAR,4.0,,0,St Josephs Hospital And Medical Center,Dignity Health,0,CMS Overall Star Rating,stars,1,Overall,6,31,3.16
+030036,OVERALL_STAR,4.0,,0,Chandler Regional Medical Center,Dignity Health,0,CMS Overall Star Rating,stars,1,Overall,6,31,3.16
+030089,OVERALL_STAR,4.0,,0,Banner Thunderbird Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,6,31,3.16
+030138,OVERALL_STAR,4.0,,0,City Of Hope Cancer Center Phoenix,Independent / Other,0,CMS Overall Star Rating,stars,1,Overall,6,31,3.16
+030146,OVERALL_STAR,4.0,,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,6,31,3.16
+030002,OVERALL_STAR,3.0,,0,Banner-University Medical Center Phoenix,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030014,OVERALL_STAR,3.0,,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030038,OVERALL_STAR,3.0,,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030061,OVERALL_STAR,3.0,,0,Banner Boswell Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030083,OVERALL_STAR,3.0,,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030087,OVERALL_STAR,3.0,,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030092,OVERALL_STAR,3.0,,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030093,OVERALL_STAR,3.0,,0,Banner Del E. Webb Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030115,OVERALL_STAR,3.0,,0,Banner Estrella Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030122,OVERALL_STAR,3.0,,0,Banner Gateway Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030130,OVERALL_STAR,3.0,,0,Banner Ironwood Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030147,OVERALL_STAR,3.0,,0,Banner Ocotillo Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,11,31,3.16
+030016,OVERALL_STAR,2.0,,0,Banner Casa Grande Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030030,OVERALL_STAR,2.0,,0,Abrazo Central Campus,Abrazo (Tenet),0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030065,OVERALL_STAR,2.0,,0,Banner Desert Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030088,OVERALL_STAR,2.0,,0,Banner Baywood Medical Center,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030094,OVERALL_STAR,2.0,,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030105,OVERALL_STAR,2.0,,0,Banner Heart Hospital,Banner Health,0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030110,OVERALL_STAR,2.0,,0,Abrazo West Campus,Abrazo (Tenet),0,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030121,OVERALL_STAR,2.0,,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,CMS Overall Star Rating,stars,1,Overall,23,31,3.16
+030022,OVERALL_STAR,1.0,,0,Valleywise Health Medical Center,Valleywise Health,0,CMS Overall Star Rating,stars,1,Overall,31,31,3.16
+030123,READM_30_HF,19.4,453.0,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,1,31,20.82
+030089,READM_30_HF,19.8,828.0,0,Banner Thunderbird Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,2,31,20.82
+030103,READM_30_HF,19.8,776.0,0,Mayo Clinic Hospital,Mayo Clinic,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,2,31,20.82
+030087,READM_30_HF,19.9,864.0,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,4,31,20.82
+030105,READM_30_HF,19.9,852.0,0,Banner Heart Hospital,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,4,31,20.82
+030038,READM_30_HF,20.0,544.0,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,6,31,20.82
+030065,READM_30_HF,20.2,606.0,0,Banner Desert Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,7,31,20.82
+030093,READM_30_HF,20.2,1181.0,0,Banner Del E. Webb Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,7,31,20.82
+030139,READM_30_HF,20.2,88.0,0,Dignity Health Arizona General Hospital,Dignity Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,7,31,20.82
+030014,READM_30_HF,20.3,434.0,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,10,31,20.82
+030115,READM_30_HF,20.4,794.0,0,Banner Estrella Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,11,31,20.82
+030130,READM_30_HF,20.4,170.0,0,Banner Ironwood Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,11,31,20.82
+030147,READM_30_HF,20.4,166.0,0,Banner Ocotillo Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,11,31,20.82
+030094,READM_30_HF,20.5,552.0,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,14,31,20.82
+030002,READM_30_HF,20.6,790.0,0,Banner-University Medical Center Phoenix,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,15,31,20.82
+030024,READM_30_HF,20.6,493.0,0,St Josephs Hospital And Medical Center,Dignity Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,15,31,20.82
+030092,READM_30_HF,20.6,571.0,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,15,31,20.82
+030122,READM_30_HF,20.8,189.0,0,Banner Gateway Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,18,31,20.82
+030022,READM_30_HF,20.9,142.0,0,Valleywise Health Medical Center,Valleywise Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,19,31,20.82
+030110,READM_30_HF,21.0,467.0,0,Abrazo West Campus,Abrazo (Tenet),0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,20,31,20.82
+030030,READM_30_HF,21.2,122.0,0,Abrazo Central Campus,Abrazo (Tenet),0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,21,31,20.82
+030061,READM_30_HF,21.2,1409.0,0,Banner Boswell Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,21,31,20.82
+030146,READM_30_HF,21.2,144.0,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,21,31,20.82
+030083,READM_30_HF,21.3,116.0,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,24,31,20.82
+030036,READM_30_HF,21.5,1153.0,0,Chandler Regional Medical Center,Dignity Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,25,31,20.82
+030134,READM_30_HF,21.8,41.0,0,Banner Goldfield Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,26,31,20.82
+030121,READM_30_HF,21.9,202.0,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,27,31,20.82
+030037,READM_30_HF,22.1,25.0,0,HonorHealth Tempe Medical Center,HonorHealth,1,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,28,31,20.82
+030088,READM_30_HF,22.2,524.0,0,Banner Baywood Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,29,31,20.82
+030119,READM_30_HF,22.3,726.0,0,Mercy Gilbert Medical Center,Dignity Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,30,31,20.82
+030016,READM_30_HF,22.7,335.0,0,Banner Casa Grande Medical Center,Banner Health,0,Heart Failure 30-Day Readmit (%),pct,0,Readmissions,31,31,20.82
+030088,READM_30_PN,15.7,1378.0,0,Banner Baywood Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,1,32,17.17
+030014,READM_30_PN,15.8,739.0,0,HonorHealth John C. Lincoln Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,2,32,17.17
+030115,READM_30_PN,15.9,879.0,0,Banner Estrella Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,3,32,17.17
+030139,READM_30_PN,16.2,328.0,0,Dignity Health Arizona General Hospital,Dignity Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,4,32,17.17
+030094,READM_30_PN,16.5,518.0,0,Abrazo Arrowhead Hospital,Abrazo (Tenet),0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,5,32,17.17
+030036,READM_30_PN,16.6,1102.0,0,Chandler Regional Medical Center,Dignity Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,6,32,17.17
+030089,READM_30_PN,16.6,1508.0,0,Banner Thunderbird Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,6,32,17.17
+030136,READM_30_PN,16.6,96.0,0,Dignity Health Arizona General Hospital,Dignity Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,6,32,17.17
+030123,READM_30_PN,16.7,538.0,0,HonorHealth Scottsdale Thompson Peak Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,9,32,17.17
+030103,READM_30_PN,16.8,1118.0,0,Mayo Clinic Hospital,Mayo Clinic,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,10,32,17.17
+030121,READM_30_PN,16.8,274.0,0,HonorHealth Four Peaks Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,10,32,17.17
+030122,READM_30_PN,16.8,729.0,0,Banner Gateway Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,10,32,17.17
+030002,READM_30_PN,16.9,730.0,0,Banner-University Medical Center Phoenix,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,13,32,17.17
+030083,READM_30_PN,16.9,328.0,0,Abrazo Scottsdale Campus,Abrazo (Tenet),0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,13,32,17.17
+030087,READM_30_PN,16.9,844.0,0,HonorHealth Scottsdale Shea Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,13,32,17.17
+030030,READM_30_PN,17.0,277.0,0,Abrazo Central Campus,Abrazo (Tenet),0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,16,32,17.17
+030105,READM_30_PN,17.1,85.0,0,Banner Heart Hospital,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,17,32,17.17
+030146,READM_30_PN,17.1,258.0,0,HonorHealth Sonoran Crossing Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,17,32,17.17
+030134,READM_30_PN,17.2,172.0,0,Banner Goldfield Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,19,32,17.17
+030110,READM_30_PN,17.3,653.0,0,Abrazo West Campus,Abrazo (Tenet),0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,20,32,17.17
+030037,READM_30_PN,17.4,57.0,0,HonorHealth Tempe Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,21,32,17.17
+030092,READM_30_PN,17.4,769.0,0,HonorHealth Deer Valley Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,21,32,17.17
+030065,READM_30_PN,17.6,1265.0,0,Banner Desert Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,23,32,17.17
+030130,READM_30_PN,17.6,483.0,0,Banner Ironwood Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,23,32,17.17
+030119,READM_30_PN,17.7,796.0,0,Mercy Gilbert Medical Center,Dignity Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,25,32,17.17
+030038,READM_30_PN,17.9,592.0,0,HonorHealth Scottsdale Osborn Medical Center,HonorHealth,1,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,26,32,17.17
+030147,READM_30_PN,18.1,319.0,0,Banner Ocotillo Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,27,32,17.17
+030016,READM_30_PN,18.3,582.0,0,Banner Casa Grande Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,28,32,17.17
+030022,READM_30_PN,18.3,162.0,0,Valleywise Health Medical Center,Valleywise Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,28,32,17.17
+030093,READM_30_PN,18.3,1748.0,0,Banner Del E. Webb Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,28,32,17.17
+030061,READM_30_PN,18.7,1813.0,0,Banner Boswell Medical Center,Banner Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,31,32,17.17
+030024,READM_30_PN,18.8,574.0,0,St Josephs Hospital And Medical Center,Dignity Health,0,Pneumonia 30-Day Readmit (%),pct,0,Readmissions,32,32,17.17

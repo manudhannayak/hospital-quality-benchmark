@@ -1,0 +1,7 @@
+measure_id,measure_label,unit,higher_is_better,domain
+OVERALL_STAR,CMS Overall Star Rating,stars,1,Overall
+H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,Patient Experience
+H_RECMND_DY,Would Definitely Recommend (%),pct,1,Patient Experience
+H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,Patient Experience
+READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,Readmissions
+READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,Readmissions

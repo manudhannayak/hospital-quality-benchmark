@@ -1,0 +1,41 @@
+health_system,measure_id,measure_label,unit,higher_is_better,hospitals_reporting,system_avg,market_avg,gap_vs_market
+Abrazo (Tenet),H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,4,56.25,69.34,-13.09
+Abrazo (Tenet),H_RECMND_DY,Would Definitely Recommend (%),pct,1,4,53.25,69.58,-16.33
+Abrazo (Tenet),H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,4,1.5,2.83,-1.33
+Abrazo (Tenet),OVERALL_STAR,CMS Overall Star Rating,stars,1,4,2.25,3.16,-0.91
+Abrazo (Tenet),READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,4,21.0,20.82,0.18
+Abrazo (Tenet),READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,4,16.93,17.17,-0.25
+Banner Health,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,13,64.54,69.34,-4.8
+Banner Health,H_RECMND_DY,Would Definitely Recommend (%),pct,1,13,65.08,69.58,-4.5
+Banner Health,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,13,2.46,2.83,-0.37
+Banner Health,OVERALL_STAR,CMS Overall Star Rating,stars,1,13,2.92,3.16,-0.24
+Banner Health,READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,13,20.82,20.82,-0.0
+Banner Health,READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,13,17.29,17.17,0.12
+Dignity Health,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,5,75.4,69.34,6.06
+Dignity Health,H_RECMND_DY,Would Definitely Recommend (%),pct,1,5,75.6,69.58,6.02
+Dignity Health,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,4,3.25,2.83,0.42
+Dignity Health,OVERALL_STAR,CMS Overall Star Rating,stars,1,4,4.5,3.16,1.34
+Dignity Health,READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,4,21.15,20.82,0.33
+Dignity Health,READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,5,17.18,17.17,0.01
+HonorHealth,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,8,71.25,69.34,1.91
+HonorHealth,H_RECMND_DY,Would Definitely Recommend (%),pct,1,8,71.75,69.58,2.17
+HonorHealth,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,8,2.88,2.83,0.04
+HonorHealth,OVERALL_STAR,CMS Overall Star Rating,stars,1,7,3.29,3.16,0.13
+HonorHealth,READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,8,20.68,20.82,-0.14
+HonorHealth,READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,8,17.0,17.17,-0.17
+Independent / Other,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,6,76.5,69.34,7.16
+Independent / Other,H_RECMND_DY,Would Definitely Recommend (%),pct,1,6,78.0,69.58,8.42
+Independent / Other,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,5,4.0,2.83,1.17
+Independent / Other,OVERALL_STAR,CMS Overall Star Rating,stars,1,1,4.0,3.16,0.84
+Mayo Clinic,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,1,91.0,69.34,21.66
+Mayo Clinic,H_RECMND_DY,Would Definitely Recommend (%),pct,1,1,93.0,69.58,23.42
+Mayo Clinic,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,1,5.0,2.83,2.17
+Mayo Clinic,OVERALL_STAR,CMS Overall Star Rating,stars,1,1,5.0,3.16,1.84
+Mayo Clinic,READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,1,19.8,20.82,-1.02
+Mayo Clinic,READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,1,16.8,17.17,-0.37
+Valleywise Health,H_HSP_RATING_9_10,Rated Hospital 9-10 (%),pct,1,1,74.0,69.34,4.66
+Valleywise Health,H_RECMND_DY,Would Definitely Recommend (%),pct,1,1,72.0,69.58,2.42
+Valleywise Health,H_STAR_RATING,HCAHPS Patient Experience Star,stars,1,1,3.0,2.83,0.17
+Valleywise Health,OVERALL_STAR,CMS Overall Star Rating,stars,1,1,1.0,3.16,-2.16
+Valleywise Health,READM_30_HF,Heart Failure 30-Day Readmit (%),pct,0,1,20.9,20.82,0.08
+Valleywise Health,READM_30_PN,Pneumonia 30-Day Readmit (%),pct,0,1,18.3,17.17,1.13

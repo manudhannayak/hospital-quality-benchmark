@@ -1,0 +1,109 @@
+facility_id,facility_name,city,county,hospital_type,ownership,health_system,is_focus_system,in_market
+030002,Banner-University Medical Center Phoenix,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Other,Banner Health,0,1
+030006,Tucson Medical Center,Tucson,Pima,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030007,Verde Valley Medical Center,Cottonwood,Yavapai,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030010,St. Mary's Hospital,Tucson,Pima,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030011,St Joseph's Hospital,Tucson,Pima,Acute Care Hospitals,Voluntary non-profit - Other,Independent / Other,0,0
+030012,Yavapai Regional Medical Center,Prescott,Yavapai,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030013,Yuma Regional Medical Center,Yuma,Yuma,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030014,HonorHealth John C. Lincoln Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,HonorHealth,1,1
+030016,Banner Casa Grande Medical Center,Casa Grande,Pinal,Acute Care Hospitals,Voluntary non-profit - Other,Banner Health,0,1
+030022,Valleywise Health Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Government - Local,Valleywise Health,0,1
+030023,Flagstaff Medical Center,Flagstaff,Coconino,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030024,St Josephs Hospital And Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Church,Dignity Health,0,1
+030030,Abrazo Central Campus,Phoenix,Maricopa,Acute Care Hospitals,Physician,Abrazo (Tenet),0,1
+030036,Chandler Regional Medical Center,Chandler,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Dignity Health,0,1
+030037,HonorHealth Tempe Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Proprietary,HonorHealth,1,1
+030038,HonorHealth Scottsdale Osborn Medical Center,Scottsdale,Maricopa,Acute Care Hospitals,Proprietary,HonorHealth,1,1
+030043,Canyon Vista Medical Center,Sierra Vista,Cochise,Acute Care Hospitals,Voluntary non-profit - Other,Independent / Other,0,0
+030055,Kingman Regional Medical Center,Kingman,Mohave,Acute Care Hospitals,Government - Hospital District or Authority,Independent / Other,0,0
+030061,Banner Boswell Medical Center,Sun City,Maricopa,Acute Care Hospitals,Voluntary non-profit - Other,Banner Health,0,1
+030062,Summit Healthcare Regional Medical Center,Show Low,Navajo,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030064,Banner-University Medical Center Tucson Campus,Tucson,Pima,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,0
+030065,Banner Desert Medical Center,Mesa,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030069,Havasu Regional Medical Center,Lake Havasu City,Mohave,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030071,Fort Defiance Indian Hospital,Ft. Defiance,Apache,Acute Care Hospitals,Tribal,Independent / Other,0,0
+030073,Tuba City Regional Health Care Corporation,Tuba City,Coconino,Acute Care Hospitals,Voluntary non-profit - Other,Independent / Other,0,0
+030074,Sells Hospital,Sells,Pima,Acute Care Hospitals,Tribal,Independent / Other,0,0
+030078,Phoenix Indian Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Government - Federal,Independent / Other,0,1
+030083,Abrazo Scottsdale Campus,Phoenix,Maricopa,Acute Care Hospitals,Proprietary,Abrazo (Tenet),0,1
+030084,Chinle Comprehensive Health Care Facility,Chinle,Apache,Acute Care Hospitals,Government - Federal,Independent / Other,0,0
+030085,Northwest Medical Center,Tucson,Pima,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030087,HonorHealth Scottsdale Shea Medical Center,Scottsdale,Maricopa,Acute Care Hospitals,Proprietary,HonorHealth,1,1
+030088,Banner Baywood Medical Center,Mesa,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030089,Banner Thunderbird Medical Center,Glendale,Maricopa,Acute Care Hospitals,Government - Hospital District or Authority,Banner Health,0,1
+030092,HonorHealth Deer Valley Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,HonorHealth,1,1
+030093,Banner Del E. Webb Medical Center,Sun City West,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030094,Abrazo Arrowhead Hospital,Glendale,Maricopa,Acute Care Hospitals,Proprietary,Abrazo (Tenet),0,1
+030101,Western Arizona Regional Medical Center,Bullhead City,Mohave,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030103,Mayo Clinic Hospital,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Mayo Clinic,0,1
+030105,Banner Heart Hospital,Mesa,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030107,Arizona Spine And Joint Hospital,Mesa,Maricopa,Acute Care Hospitals,Physician,Independent / Other,0,1
+030108,The Core Institute Specialty Hospital,Phoenix,Maricopa,Acute Care Hospitals,Physician,Independent / Other,0,1
+030110,Abrazo West Campus,Goodyear,Maricopa,Acute Care Hospitals,Proprietary,Abrazo (Tenet),0,1
+030111,Banner-University Medical Center South Campus,Tucson,Pima,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,0
+030112,Arizona Orthopedic And Surgical Specialty Hospital,Phoenix,Maricopa,Acute Care Hospitals,Proprietary,Independent / Other,0,1
+030113,Whiteriver Phs Indian Hospital,Whiteriver,Navajo,Acute Care Hospitals,Government - Federal,Independent / Other,0,0
+030114,Oro Valley Hospital,Oro Valley,Pima,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030115,Banner Estrella Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030117,Valley View Medical Center,Fort Mohave,Mohave,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030119,Mercy Gilbert Medical Center,Gilbert,Maricopa,Acute Care Hospitals,Voluntary non-profit - Church,Dignity Health,0,1
+030121,HonorHealth Four Peaks Medical Center,Mesa,Maricopa,Acute Care Hospitals,Proprietary,HonorHealth,1,1
+030122,Banner Gateway Medical Center,Gilbert,Maricopa,Acute Care Hospitals,Voluntary non-profit - Other,Banner Health,0,1
+030123,HonorHealth Scottsdale Thompson Peak Medical Center,Scottsdale,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,HonorHealth,1,1
+03012F,Phoenix VA Medical Center,Phoenix,Maricopa,Acute Care - Veterans Administration,Veterans Health Administration,Independent / Other,0,0
+030130,Banner Ironwood Medical Center,Queen Creek,Pinal,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030134,Banner Goldfield Medical Center,Apache Junction,Pinal,Acute Care Hospitals,Voluntary non-profit - Other,Banner Health,0,1
+030136,Dignity Health Arizona General Hospital,Laveen,Maricopa,Acute Care Hospitals,Proprietary,Dignity Health,0,1
+030138,City Of Hope Cancer Center Phoenix,Goodyear,Maricopa,Acute Care Hospitals,Proprietary,Independent / Other,0,1
+030139,Dignity Health Arizona General Hospital,Mesa,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Dignity Health,0,1
+03013F,VA S. Arizona Healthcare System,Tucson,Pima,Acute Care - Veterans Administration,Veterans Health Administration,Independent / Other,0,0
+030146,HonorHealth Sonoran Crossing Medical Center,Phoenix,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,HonorHealth,1,1
+030147,Banner Ocotillo Medical Center,Chandler,Maricopa,Acute Care Hospitals,Voluntary non-profit - Private,Banner Health,0,1
+030148,Northwest Medical Center Sahuarita,Sahuarita,Pima,Acute Care Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+030152,Exceptional Community Hospital Maricopa,Maricopa,Pinal,Acute Care Hospitals,Proprietary,Independent / Other,0,1
+030153,East Valley ER & Hospital,Gilbert,Maricopa,Acute Care Hospitals,Proprietary,Independent / Other,0,1
+030154,Exceptional Community Hospital Yuma,Yuma,Yuma,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030155,Exceptional Community Hospital Bullhead City,Bullhead City,Mohave,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+030195,Kayenta Alternative Rural Hospital,Kayenta,Navajo,Acute Care Hospitals,Government - Federal,Independent / Other,0,0
+030196,Exceptional Community Hospital Prescott,Prescott,Yavapai,Acute Care Hospitals,Proprietary,Independent / Other,0,0
+03033F,VA Northern Arizona Healthcare System,Prescott,Yavapai,Acute Care - Veterans Administration,Veterans Health Administration,Independent / Other,0,0
+031300,Wickenburg Community Hospital,Wickenburg,Maricopa,Critical Access Hospitals,Voluntary non-profit - Other,Independent / Other,0,0
+031301,Benson Hospital,Benson,Cochise,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031302,"Northern Cochise Community Hospital, Inc.",Willcox,Cochise,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031304,Page Hospital,Page,Coconino,Critical Access Hospitals,Government - Hospital District or Authority,Independent / Other,0,0
+031305,Hopi Health Care Center,Polacca,Navajo,Critical Access Hospitals,Tribal,Independent / Other,0,0
+031307,Parker Indian Health Center,Parker,Lapaz,Critical Access Hospitals,Government - Federal,Independent / Other,0,0
+031308,Huhu Kam Memorial Hospital,Sacaton,Pinal,Critical Access Hospitals,Government - Federal,Independent / Other,0,0
+031309,Sage Memorial Hospital,Ganado,Apache,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031311,Little Colorado Medical Center,Winslow,Navajo,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031312,Copper Queen Community Hospital,Bisbee,Cochise,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031313,Holy Cross Hospital,Nogales,Santa Cruz,Critical Access Hospitals,Proprietary,Independent / Other,0,0
+031314,Cobre Valley Regional Medical Center,Globe,Gila,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031315,White Mountain Regional Medical Center,Springerville,Apache,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031317,La Paz Regional Hospital,Parker,Lapaz,Critical Access Hospitals,Voluntary non-profit - Private,Independent / Other,0,0
+031318,Banner Payson Medical Center,Payson,Gila,Critical Access Hospitals,Voluntary non-profit - Other,Banner Health,0,0
+031319,Mt. Graham Regional Medical Center,Safford,Graham,Critical Access Hospitals,Government - Hospital District or Authority,Independent / Other,0,0
+031320,San Carlos Apache Healthcare Corporation,Peridot,Gila,Critical Access Hospitals,Tribal,Independent / Other,0,0
+033302,Phoenix Children's Hospital,Phoenix,Maricopa,Childrens,Voluntary non-profit - Private,Independent / Other,0,0
+034004,Banner Behavioral Health Hospital,Scottsdale,Maricopa,Psychiatric,Voluntary non-profit - Private,Independent / Other,0,0
+034013,College Medical Center Phoenix,Phoenix,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034020,Haven Behavioral Hospital Of Phoenix,Phoenix,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034021,Arizona State Hospital,Phoenix,Maricopa,Psychiatric,Government - State,Independent / Other,0,0
+034022,Sonora Behavioral Health Hospital,Tucson,Pima,Psychiatric,Proprietary,Independent / Other,0,0
+034023,The Guidance Center,Flagstaff,Coconino,Psychiatric,Voluntary non-profit - Private,Independent / Other,0,0
+034024,Aurora Behavioral Health System,Glendale,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034025,The Healing Place,Prescott,Yavapai,Psychiatric,Proprietary,Independent / Other,0,0
+034026,Valley Hospital,Phoenix,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034027,Changepoint Psychiatric Hospital,Lakeside,Navajo,Psychiatric,Voluntary non-profit - Private,Independent / Other,0,0
+034028,Aurora Behavioral Healthcare-Tempe,Tempe,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034029,Oasis Behavioral Health Hospital,Chandler,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034030,Palo Verde Behavioral Health,Tucson,Pima,Psychiatric,Voluntary non-profit - Private,Independent / Other,0,0
+034031,Quail Run Behavioral Health,Phoenix,Maricopa,Psychiatric,Voluntary non-profit - Other,Independent / Other,0,0
+034032,Copper Springs East- Gilbert,Avondale,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034033,El Dorado Springs,Tucson,Pima,Psychiatric,Proprietary,Independent / Other,0,0
+034034,Destiny Springs Healthcare,Surprise,Maricopa,Psychiatric,Physician,Independent / Other,0,0
+034035,Avenir Behavioral Health Center,Surprise,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034038,"Phoenix Medical Psychiatric Hospital, Llc",Phoenix,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034040,Via Linda Behavioral Hospital,Scottsdale,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
+034041,Agave Ridge Behavioral Hospital,Mesa,Maricopa,Psychiatric,Proprietary,Independent / Other,0,0
