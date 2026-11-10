@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:42:17+00:00",
+ "generated_at": "2026-11-10T23:43:55+00:00",
  "focus_system": "HonorHealth",
  "release_id": "2026-11-10",
  "source": "cms",
@@ -11,7 +11,7 @@
   "READM_30_HF": "07/01/2023 to 06/30/2025",
   "READM_30_PN": "07/01/2023 to 06/30/2025"
  },
- "summary": "HonorHealth is ahead of the Phoenix-market average on 6 of 6 benchmarked CMS measures (8 hospitals vs 38 in market), ranking #2 to #4 of 6 health systems. Mayo Clinic leads every measure, so the system-level margin is narrow; the opportunity is concentrated in specific campuses.\n\nStrengths:\n- HonorHealth Scottsdale Thompson Peak Medical Center: CMS Overall Star Rating 5 (rank 1 of 31)\n- HonorHealth Scottsdale Thompson Peak Medical Center: Heart Failure 30-Day Readmit (%) 19.4 (rank 1 of 31)\n- HonorHealth Sonoran Crossing Medical Center: Rated Hospital 9-10 (%) 86 (rank 2 of 38)\n\nGaps to address:\n- HonorHealth Tempe Medical Center: Rated Hospital 9-10 (%) 52 vs market 69.34 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Would Definitely Recommend (%) 53 vs market 69.58 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Heart Failure 30-Day Readmit (%) 22.1 vs market 20.82 (rank 28 of 31)\n\nData quality: 25 checks passed, 1 warnings, 0 failures.",
+ "summary": "HonorHealth is ahead of the Phoenix-market average on 6 of 6 benchmarked CMS measures (8 hospitals vs 38 in market), ranking #2 to #4 of 6 health systems. Mayo Clinic leads every measure, so the system-level margin is narrow; the opportunity is concentrated in specific campuses.\n\nStrengths:\n- HonorHealth Scottsdale Thompson Peak Medical Center: CMS Overall Star Rating 5 (rank 1 of 31)\n- HonorHealth Scottsdale Thompson Peak Medical Center: Heart Failure 30-Day Readmit (%) 19.4 (rank 1 of 31)\n- HonorHealth Sonoran Crossing Medical Center: Rated Hospital 9-10 (%) 86 (rank 2 of 38)\n\nGaps to address:\n- HonorHealth Tempe Medical Center: Rated Hospital 9-10 (%) 52 vs market 69.34 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Would Definitely Recommend (%) 53 vs market 69.58 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Heart Failure 30-Day Readmit (%) 22.1 vs market 20.82 (rank 28 of 31)\n\nData quality: 26 checks passed, 0 warnings, 0 failures.",
  "summary_method": "template",
  "measures": [
   {
@@ -1974,8 +1974,8 @@
  "alerts": [],
  "data_quality": {
   "counts": {
-   "PASS": 25,
-   "WARN": 1,
+   "PASS": 26,
+   "WARN": 0,
    "FAIL": 0
   },
   "passed": true,
@@ -2073,8 +2073,8 @@
    {
     "check": "null_rate",
     "dataset": "OVERALL_STAR",
-    "status": "WARN",
-    "detail": "49% not rated"
+    "status": "PASS",
+    "detail": "26% of 66 acute care hospitals not rated"
    },
    {
     "check": "value_range",
