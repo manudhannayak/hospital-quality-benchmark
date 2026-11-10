@@ -71,9 +71,11 @@ def run_checks(data: dict[str, pd.DataFrame], settings: dict) -> list[CheckResul
         rate = grp["score"].map(to_number).isna().mean()
         status = "PASS" if rate <= cfg["max_null_rate"] else "WARN"
         add("null_rate", measure_id, status, f"{rate:.0%} not reported (limit {cfg['max_null_rate']:.0%})")
-    rating_null = hospitals["hospital_overall_rating"].map(to_number).isna().mean()
+    # CMS only star-rates acute care hospitals; psychiatric, rehab and critical access sites are N/A by design.
+    acute = hospitals[hospitals["hospital_type"] == "Acute Care Hospitals"]
+    rating_null = acute["hospital_overall_rating"].map(to_number).isna().mean()
     add("null_rate", "OVERALL_STAR", "PASS" if rating_null <= cfg["max_null_rate"] else "WARN",
-        f"{rating_null:.0%} not rated")
+        f"{rating_null:.0%} of {len(acute)} acute care hospitals not rated")
 
     # 6. Value ranges
     for measure_id, grp in long.groupby("measure_id"):
