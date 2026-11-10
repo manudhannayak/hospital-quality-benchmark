@@ -1,0 +1,97 @@
+// ===========================================================================
+// DAX measures for the HonorHealth CMS Benchmark model
+// Tables: fact_measure, dim_hospital, dim_measure, dim_release (output/powerbi/*.csv)
+// ===========================================================================
+
+// --- Release handling -------------------------------------------------------
+Latest Release =
+CALCULATE ( MAX ( dim_release[release_id] ), dim_release[dq_pass] = 1 )
+
+Is Latest Release =
+IF ( SELECTEDVALUE ( dim_release[release_id] ) = [Latest Release], 1, 0 )
+
+// --- Core value -------------------------------------------------------------
+// Unweighted average of reporting hospitals in the current filter context,
+// for the latest quality-passed release.
+Avg Value =
+CALCULATE (
+    AVERAGE ( fact_measure[value] ),
+    fact_measure[release_id] = [Latest Release],
+    NOT ISBLANK ( fact_measure[value] )
+)
+
+Hospitals Reporting =
+CALCULATE (
+    COUNTROWS ( fact_measure ),
+    fact_measure[release_id] = [Latest Release],
+    NOT ISBLANK ( fact_measure[value] )
+)
+
+// --- Focus system vs market --------------------------------------------------
+HonorHealth Avg =
+CALCULATE ( [Avg Value], dim_hospital[is_focus_system] = 1, dim_hospital[in_market] = 1 )
+
+Market Avg =
+CALCULATE ( [Avg Value], dim_hospital[in_market] = 1, REMOVEFILTERS ( dim_hospital[health_system] ) )
+
+// Positive = HonorHealth better than market, whatever the measure direction.
+Gap vs Market =
+VAR _gap = [HonorHealth Avg] - [Market Avg]
+VAR _hib = SELECTEDVALUE ( dim_measure[higher_is_better], 1 )
+RETURN IF ( _hib = 1, _gap, -_gap )
+
+Gap Status =
+SWITCH ( TRUE (),
+    ISBLANK ( [Gap vs Market] ), BLANK (),
+    [Gap vs Market] > 0, "Better than market",
+    [Gap vs Market] < 0, "Worse than market",
+    "At market" )
+
+// --- Hospital rank in market (respects direction) ---------------------------
+Market Rank =
+VAR _hib = SELECTEDVALUE ( dim_measure[higher_is_better], 1 )
+VAR _mine = [Avg Value]
+VAR _peers =
+    CALCULATETABLE (
+        ADDCOLUMNS ( VALUES ( dim_hospital[facility_id] ), "@v", [Avg Value] ),
+        dim_hospital[in_market] = 1,
+        REMOVEFILTERS ( dim_hospital )
+    )
+RETURN
+    IF ( NOT ISBLANK ( _mine ),
+        1 + COUNTROWS (
+            FILTER ( _peers, NOT ISBLANK ( [@v] ) && IF ( _hib = 1, [@v] > _mine, [@v] < _mine ) )
+        ) )
+
+Market Size =
+CALCULATE ( [Hospitals Reporting], dim_hospital[in_market] = 1, REMOVEFILTERS ( dim_hospital ) )
+
+Rank Label = IF ( NOT ISBLANK ( [Market Rank] ), "#" & [Market Rank] & " of " & [Market Size] )
+
+// Heatmap color (conditional formatting > Field value)
+Rank Color =
+VAR _p = DIVIDE ( [Market Rank] - 1, [Market Size] - 1 )
+RETURN SWITCH ( TRUE (),
+    ISBLANK ( _p ), "#FFFFFF",
+    _p <= 0.25, "#D9F0E3",
+    _p <= 0.50, "#EEF7F1",
+    _p <= 0.75, "#FBF0E6",
+    "#F6D9D6" )
+
+// --- Release-over-release change (for alert visuals) ------------------------
+Prior Release =
+VAR _latest = [Latest Release]
+RETURN CALCULATE ( MAX ( dim_release[release_id] ), dim_release[dq_pass] = 1, dim_release[release_id] < _latest )
+
+Prior Value =
+VAR _prior = [Prior Release]
+RETURN CALCULATE ( AVERAGE ( fact_measure[value] ), fact_measure[release_id] = _prior )
+
+Change vs Prior = IF ( NOT ISBLANK ( [Prior Value] ), [Avg Value] - [Prior Value] )
+
+// --- Data quality ------------------------------------------------------------
+Low Volume Hospitals =
+CALCULATE ( COUNTROWS ( fact_measure ), fact_measure[low_volume_flag] = 1,
+            fact_measure[release_id] = [Latest Release] )
+
+Last Refreshed = "CMS release " & [Latest Release]

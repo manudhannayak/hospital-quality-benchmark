@@ -1,0 +1,88 @@
+facility_id,facility_name,citytown,countyparish,state,hospital_type,hospital_ownership,hospital_overall_rating
+030002,BANNER - UNIVERSITY MEDICAL CENTER PHOENIX,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Other,3
+030006,TUCSON MEDICAL CENTER,TUCSON,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030007,VERDE VALLEY MEDICAL CENTER,COTTONWOOD,YAVAPAI,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030010,ST. MARY'S HOSPITAL,TUCSON,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030011,ST JOSEPH'S HOSPITAL,TUCSON,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Other,3
+030012,YAVAPAI REGIONAL MEDICAL CENTER,PRESCOTT,YAVAPAI,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030013,YUMA REGIONAL MEDICAL CENTER,YUMA,YUMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030014,HONOR HEALTH JOHN C. LINCOLN MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030016,BANNER CASA GRANDE MEDICAL CENTER,CASA GRANDE,PINAL,AZ,Acute Care Hospitals,Voluntary non-profit - Other,2
+030022,VALLEYWISE HEALTH MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Government - Local,1
+030023,FLAGSTAFF MEDICAL CENTER,FLAGSTAFF,COCONINO,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030024,ST JOSEPHS HOSPITAL AND MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Church,4
+030030,ABRAZO CENTRAL CAMPUS,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Physician,2
+030036,CHANDLER REGIONAL MEDICAL CENTER,CHANDLER,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030037,HONORHEALTH TEMPE MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Proprietary,Not Available
+030038,HONORHEALTH SCOTTSDALE OSBORN MEDICAL CENTER,SCOTTSDALE,MARICOPA,AZ,Acute Care Hospitals,Proprietary,3
+030043,CANYON VISTA MEDICAL CENTER,SIERRA VISTA,COCHISE,AZ,Acute Care Hospitals,Voluntary non-profit - Other,2
+030055,KINGMAN REGIONAL MEDICAL CENTER,KINGMAN,MOHAVE,AZ,Acute Care Hospitals,Government - Hospital District or Authority,3
+030061,BANNER BOSWELL MEDICAL CENTER,SUN CITY,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Other,3
+030062,SUMMIT HEALTHCARE REGIONAL MEDICAL CENTER,SHOW LOW,NAVAJO,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030064,BANNER - UNIVERSITY MEDICAL CENTER TUCSON CAMPUS,TUCSON,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030065,BANNER DESERT MEDICAL CENTER,MESA,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030069,HAVASU REGIONAL MEDICAL CENTER,LAKE HAVASU CITY,MOHAVE,AZ,Acute Care Hospitals,Proprietary,3
+030071,FORT DEFIANCE INDIAN HOSPITAL,FT. DEFIANCE,APACHE,AZ,Acute Care Hospitals,Tribal,Not Available
+030073,TUBA CITY REGIONAL HEALTH CARE CORPORATION,TUBA CITY,COCONINO,AZ,Acute Care Hospitals,Voluntary non-profit - Other,Not Available
+030074,SELLS HOSPITAL,SELLS,PIMA,AZ,Acute Care Hospitals,Tribal,Not Available
+030078,PHOENIX INDIAN MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Government - Federal,Not Available
+030083,ABRAZO SCOTTSDALE CAMPUS,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Proprietary,3
+030084,CHINLE COMPREHENSIVE HEALTH CARE FACILITY,CHINLE,APACHE,AZ,Acute Care Hospitals,Government - Federal,Not Available
+030085,NORTHWEST MEDICAL CENTER,TUCSON,PIMA,AZ,Acute Care Hospitals,Proprietary,2
+030087,HONORHEALTH SCOTTSDALE SHEA MEDICAL CENTER,SCOTTSDALE,MARICOPA,AZ,Acute Care Hospitals,Proprietary,3
+030088,BANNER BAYWOOD MEDICAL CENTER,MESA,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030089,BANNER THUNDERBIRD MEDICAL CENTER,GLENDALE,MARICOPA,AZ,Acute Care Hospitals,Government - Hospital District or Authority,4
+030092,HONORHEALTH DEER VALLEY MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030093,BANNER DEL E. WEBB MEDICAL CENTER,SUN CITY WEST,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030094,ABRAZO ARROWHEAD HOSPITAL,GLENDALE,MARICOPA,AZ,Acute Care Hospitals,Proprietary,2
+030101,WESTERN ARIZONA REGIONAL MEDICAL CENTER,BULLHEAD CITY,MOHAVE,AZ,Acute Care Hospitals,Proprietary,2
+030103,MAYO CLINIC HOSPITAL,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,5
+030105,BANNER HEART HOSPITAL,MESA,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,2
+030107,ARIZONA SPINE AND JOINT HOSPITAL,MESA,MARICOPA,AZ,Acute Care Hospitals,Physician,Not Available
+030108,THE CORE INSTITUTE SPECIALTY HOSP,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Physician,Not Available
+030110,ABRAZO WEST CAMPUS,GOODYEAR,MARICOPA,AZ,Acute Care Hospitals,Proprietary,2
+030111,BANNER-UNIVERSITY MEDICAL CENTER SOUTH CAMPUS,TUCSON,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030112,ARIZONA ORTHOPEDIC AND SURGICAL SPECIALTY HOSPITAL,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Proprietary,Not Available
+030113,WHITERIVER PHS INDIAN HOSPITAL,WHITERIVER,NAVAJO,AZ,Acute Care Hospitals,Government - Federal,Not Available
+030114,ORO VALLEY HOSPITAL,ORO VALLEY,PIMA,AZ,Acute Care Hospitals,Proprietary,3
+030115,BANNER ESTRELLA MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030117,VALLEY VIEW MEDICAL CENTER,FORT MOHAVE,MOHAVE,AZ,Acute Care Hospitals,Proprietary,2
+030119,MERCY GILBERT MEDICAL CENTER,GILBERT,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Church,5
+030121,HONORHEALTH FOUR PEAKS MEDICAL CENTER,MESA,MARICOPA,AZ,Acute Care Hospitals,Proprietary,2
+030122,BANNER GATEWAY MEDICAL CENTER,GILBERT,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Other,3
+030123,HONORHEALTH SCOTTSDALE THOMPSON PEAK MED CTR,SCOTTSDALE,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,5
+03012F,PHOENIX VA MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care - Veterans Administration,Veterans Health Administration,5
+030130,BANNER IRONWOOD MEDICAL CENTER,QUEEN CREEK,PINAL,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030134,BANNER GOLDFIELD MEDICAL CENTER,APACHE JUNCTION,PINAL,AZ,Acute Care Hospitals,Voluntary non-profit - Other,5
+030136,DIGNITY HEALTH - ARIZONA GENERAL HOSPITAL,LAVEEN,MARICOPA,AZ,Acute Care Hospitals,Proprietary,Not Available
+030138,CITY OF HOPE CANCER CENTER PHOENIX,GOODYEAR,MARICOPA,AZ,Acute Care Hospitals,Proprietary,4
+030139,DIGNITY HEALTH ARIZONA GENERAL HOSPITAL,MESA,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,5
+03013F,VA S. ARIZONA HEALTHCARE SYSTEM,TUCSON,PIMA,AZ,Acute Care - Veterans Administration,Veterans Health Administration,5
+030146,HONORHEALTH SONORAN CROSSING MEDICAL CENTER,PHOENIX,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,4
+030147,BANNER OCOTILLO MEDICAL CENTER,CHANDLER,MARICOPA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030148,NORTHWEST MEDICAL CENTER SAHUARITA,SAHUARITA,PIMA,AZ,Acute Care Hospitals,Voluntary non-profit - Private,3
+030152,EXCEPTIONAL COMMUNITY HOSPITAL - MARICOPA,MARICOPA,PINAL,AZ,Acute Care Hospitals,Proprietary,Not Available
+030153,EAST VALLEY ER & HOSPITAL,GILBERT,MARICOPA,AZ,Acute Care Hospitals,Proprietary,Not Available
+030154,EXCEPTIONAL COMMUNITY HOSPITAL YUMA,YUMA,YUMA,AZ,Acute Care Hospitals,Proprietary,Not Available
+030155,EXCEPTIONAL COMMUNITY HOSPITAL BULLHEAD CITY,BULLHEAD CITY,MOHAVE,AZ,Acute Care Hospitals,Proprietary,Not Available
+030195,KAYENTA ALTERNATIVE RURAL HOSPITAL,KAYENTA,NAVAJO,AZ,Acute Care Hospitals,Government - Federal,Not Available
+030196,EXCEPTIONAL COMMUNITY HOSPITAL PRESCOTT,PRESCOTT,YAVAPAI,AZ,Acute Care Hospitals,Proprietary,Not Available
+03033F,VA NORTHERN ARIZONA HEALTHCARE SYSTEM,PRESCOTT,YAVAPAI,AZ,Acute Care - Veterans Administration,Veterans Health Administration,5
+031300,WICKENBURG COMMUNITY HOSPITAL,WICKENBURG,MARICOPA,AZ,Critical Access Hospitals,Voluntary non-profit - Other,Not Available
+031301,BENSON HOSPITAL,BENSON,COCHISE,AZ,Critical Access Hospitals,Voluntary non-profit - Private,Not Available
+031302,"NORTHERN COCHISE COMMUNITY HOSPITAL, INC.",WILLCOX,COCHISE,AZ,Critical Access Hospitals,Voluntary non-profit - Private,Not Available
+031304,PAGE HOSPITAL,PAGE,COCONINO,AZ,Critical Access Hospitals,Government - Hospital District or Authority,Not Available
+031305,HOPI HEALTH CARE CENTER,POLACCA,NAVAJO,AZ,Critical Access Hospitals,Tribal,Not Available
+031307,PARKER INDIAN HEALTH CENTER,PARKER,LAPAZ,AZ,Critical Access Hospitals,Government - Federal,Not Available
+031308,HUHU KAM MEMORIAL HOSPITAL,SACATON,PINAL,AZ,Critical Access Hospitals,Government - Federal,Not Available
+031309,SAGE MEMORIAL HOSPITAL,,,AZ,Critical Access Hospitals,,Not Available
+031311,LITTLE COLORADO MEDICAL CENTER,,,AZ,Critical Access Hospitals,,Not Available
+031312,COPPER QUEEN COMMUNITY HOSPITAL,,,AZ,Critical Access Hospitals,,Not Available
+031313,HOLY CROSS HOSPITAL,,,AZ,Critical Access Hospitals,,Not Available
+031314,COBRE VALLEY REGIONAL MEDICAL CENTER,,,AZ,Critical Access Hospitals,,Not Available
+031315,WHITE MOUNTAIN REGIONAL MEDICAL CENTER,,,AZ,Critical Access Hospitals,,Not Available
+031317,LA PAZ REGIONAL HOSPITAL,,,AZ,Critical Access Hospitals,,Not Available
+031318,BANNER PAYSON MEDICAL CENTER,,,AZ,Critical Access Hospitals,,Not Available
+031319,MT. GRAHAM REGIONAL MEDICAL CENTER,,,AZ,Critical Access Hospitals,,Not Available
+031320,SAN CARLOS APACHE HEALTHCARE CORPORATION,,,AZ,Critical Access Hospitals,,Not Available
+033302,PHOENIX CHILDREN'S HOSPITAL,,MARICOPA,AZ,Childrens,,Not Available

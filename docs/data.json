@@ -1,0 +1,2390 @@
+{
+ "generated_at": "2026-11-10T23:34:16+00:00",
+ "focus_system": "HonorHealth",
+ "release_id": "2026-11-10",
+ "source": "snapshot",
+ "market": "Phoenix metro acute-care hospitals (Maricopa + Pinal counties)",
+ "reporting_periods": {
+  "H_HSP_RATING_9_10": "10/01/2024 to 09/30/2025",
+  "H_RECMND_DY": "10/01/2024 to 09/30/2025",
+  "H_STAR_RATING": "10/01/2024 to 09/30/2025",
+  "READM_30_HF": "07/01/2023 to 06/30/2025",
+  "READM_30_PN": "07/01/2023 to 06/30/2025"
+ },
+ "summary": "HonorHealth is ahead of the Phoenix-market average on 6 of 6 benchmarked CMS measures (8 hospitals vs 38 in market), ranking #2 to #4 of 6 health systems. Mayo Clinic leads every measure, so the system-level margin is narrow; the opportunity is concentrated in specific campuses.\n\nStrengths:\n- HonorHealth Scottsdale Thompson Peak Medical Center: CMS Overall Star Rating 5 (rank 1 of 31)\n- HonorHealth Scottsdale Thompson Peak Medical Center: Heart Failure 30-Day Readmit (%) 19.4 (rank 1 of 31)\n- HonorHealth Sonoran Crossing Medical Center: Rated Hospital 9-10 (%) 86 (rank 2 of 38)\n\nGaps to address:\n- HonorHealth Tempe Medical Center: Rated Hospital 9-10 (%) 52 vs market 69.34 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Would Definitely Recommend (%) 53 vs market 69.58 (rank 37 of 38)\n- HonorHealth Tempe Medical Center: Heart Failure 30-Day Readmit (%) 22.1 vs market 20.82 (rank 28 of 31)\n\nData quality: 26 checks passed, 0 warnings, 0 failures.",
+ "summary_method": "template",
+ "measures": [
+  {
+   "measure_id": "OVERALL_STAR",
+   "measure_label": "CMS Overall Star Rating",
+   "unit": "stars",
+   "higher_is_better": 1,
+   "domain": "Overall"
+  },
+  {
+   "measure_id": "H_STAR_RATING",
+   "measure_label": "HCAHPS Patient Experience Star",
+   "unit": "stars",
+   "higher_is_better": 1,
+   "domain": "Patient Experience"
+  },
+  {
+   "measure_id": "H_RECMND_DY",
+   "measure_label": "Would Definitely Recommend (%)",
+   "unit": "pct",
+   "higher_is_better": 1,
+   "domain": "Patient Experience"
+  },
+  {
+   "measure_id": "H_HSP_RATING_9_10",
+   "measure_label": "Rated Hospital 9-10 (%)",
+   "unit": "pct",
+   "higher_is_better": 1,
+   "domain": "Patient Experience"
+  },
+  {
+   "measure_id": "READM_30_HF",
+   "measure_label": "Heart Failure 30-Day Readmit (%)",
+   "unit": "pct",
+   "higher_is_better": 0,
+   "domain": "Readmissions"
+  },
+  {
+   "measure_id": "READM_30_PN",
+   "measure_label": "Pneumonia 30-Day Readmit (%)",
+   "unit": "pct",
+   "higher_is_better": 0,
+   "domain": "Readmissions"
+  }
+ ],
+ "system_scorecard": [
+  {
+   "measure_id": "H_HSP_RATING_9_10",
+   "label": "Rated Hospital 9-10 (%)",
+   "unit": "pct",
+   "higher_is_better": true,
+   "focus_avg": 71.25,
+   "market_avg": 69.34,
+   "gap_vs_market": 1.91,
+   "focus_rank_among_systems": 4,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 91.0,
+   "system_avgs": {
+    "Mayo Clinic": 91.0,
+    "Dignity Health": 75.4,
+    "Valleywise Health": 74.0,
+    "HonorHealth": 71.25,
+    "Banner Health": 64.54,
+    "Abrazo (Tenet)": 56.25
+   }
+  },
+  {
+   "measure_id": "H_RECMND_DY",
+   "label": "Would Definitely Recommend (%)",
+   "unit": "pct",
+   "higher_is_better": true,
+   "focus_avg": 71.75,
+   "market_avg": 69.58,
+   "gap_vs_market": 2.17,
+   "focus_rank_among_systems": 4,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 93.0,
+   "system_avgs": {
+    "Mayo Clinic": 93.0,
+    "Dignity Health": 75.6,
+    "Valleywise Health": 72.0,
+    "HonorHealth": 71.75,
+    "Banner Health": 65.08,
+    "Abrazo (Tenet)": 53.25
+   }
+  },
+  {
+   "measure_id": "H_STAR_RATING",
+   "label": "HCAHPS Patient Experience Star",
+   "unit": "stars",
+   "higher_is_better": true,
+   "focus_avg": 2.88,
+   "market_avg": 2.83,
+   "gap_vs_market": 0.05,
+   "focus_rank_among_systems": 4,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 5.0,
+   "system_avgs": {
+    "Mayo Clinic": 5.0,
+    "Dignity Health": 3.25,
+    "Valleywise Health": 3.0,
+    "HonorHealth": 2.88,
+    "Banner Health": 2.46,
+    "Abrazo (Tenet)": 1.5
+   }
+  },
+  {
+   "measure_id": "OVERALL_STAR",
+   "label": "CMS Overall Star Rating",
+   "unit": "stars",
+   "higher_is_better": true,
+   "focus_avg": 3.29,
+   "market_avg": 3.16,
+   "gap_vs_market": 0.13,
+   "focus_rank_among_systems": 3,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 5.0,
+   "system_avgs": {
+    "Mayo Clinic": 5.0,
+    "Dignity Health": 4.5,
+    "HonorHealth": 3.29,
+    "Banner Health": 2.92,
+    "Abrazo (Tenet)": 2.25,
+    "Valleywise Health": 1.0
+   }
+  },
+  {
+   "measure_id": "READM_30_HF",
+   "label": "Heart Failure 30-Day Readmit (%)",
+   "unit": "pct",
+   "higher_is_better": false,
+   "focus_avg": 20.68,
+   "market_avg": 20.82,
+   "gap_vs_market": 0.14,
+   "focus_rank_among_systems": 2,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 19.8,
+   "system_avgs": {
+    "Mayo Clinic": 19.8,
+    "HonorHealth": 20.68,
+    "Banner Health": 20.82,
+    "Valleywise Health": 20.9,
+    "Abrazo (Tenet)": 21.0,
+    "Dignity Health": 21.15
+   }
+  },
+  {
+   "measure_id": "READM_30_PN",
+   "label": "Pneumonia 30-Day Readmit (%)",
+   "unit": "pct",
+   "higher_is_better": false,
+   "focus_avg": 17.0,
+   "market_avg": 17.17,
+   "gap_vs_market": 0.17,
+   "focus_rank_among_systems": 3,
+   "systems_compared": 6,
+   "leader_system": "Mayo Clinic",
+   "leader_avg": 16.8,
+   "system_avgs": {
+    "Mayo Clinic": 16.8,
+    "Abrazo (Tenet)": 16.93,
+    "HonorHealth": 17.0,
+    "Dignity Health": 17.18,
+    "Banner Health": 17.29,
+    "Valleywise Health": 18.3
+   }
+  }
+ ],
+ "hospitals": [
+  {
+   "id": "030002",
+   "name": "Banner-University Medical Center Phoenix",
+   "city": "Phoenix",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 68.0,
+     "n": null,
+     "lv": false,
+     "rank": 25,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 68.0,
+     "n": null,
+     "lv": false,
+     "rank": 25,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 1209,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.6,
+     "n": 790,
+     "lv": false,
+     "rank": 15,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.9,
+     "n": 730,
+     "lv": false,
+     "rank": 13,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030014",
+   "name": "HonorHealth John C. Lincoln Medical Center",
+   "city": "Phoenix",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 576,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.3,
+     "n": 434,
+     "lv": false,
+     "rank": 10,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 15.8,
+     "n": 739,
+     "lv": false,
+     "rank": 2,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030016",
+   "name": "Banner Casa Grande Medical Center",
+   "city": "Casa Grande",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 58.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 57.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 488,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 22.7,
+     "n": 335,
+     "lv": false,
+     "rank": 31,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.3,
+     "n": 582,
+     "lv": false,
+     "rank": 28,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030022",
+   "name": "Valleywise Health Medical Center",
+   "city": "Phoenix",
+   "system": "Valleywise Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 74.0,
+     "n": null,
+     "lv": false,
+     "rank": 12,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 783,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 1.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.9,
+     "n": 142,
+     "lv": false,
+     "rank": 19,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.3,
+     "n": 162,
+     "lv": false,
+     "rank": 28,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030024",
+   "name": "St Josephs Hospital And Medical Center",
+   "city": "Phoenix",
+   "system": "Dignity Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 73.0,
+     "n": null,
+     "lv": false,
+     "rank": 14,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 75.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 712,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 4.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.6,
+     "n": 493,
+     "lv": false,
+     "rank": 15,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.8,
+     "n": 574,
+     "lv": false,
+     "rank": 32,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030030",
+   "name": "Abrazo Central Campus",
+   "city": "Phoenix",
+   "system": "Abrazo (Tenet)",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 58.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 54.0,
+     "n": null,
+     "lv": false,
+     "rank": 35,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 1.0,
+     "n": 325,
+     "lv": false,
+     "rank": 35,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.2,
+     "n": 122,
+     "lv": false,
+     "rank": 21,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.0,
+     "n": 277,
+     "lv": false,
+     "rank": 16,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030036",
+   "name": "Chandler Regional Medical Center",
+   "city": "Chandler",
+   "system": "Dignity Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 19,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 476,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 4.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.5,
+     "n": 1153,
+     "lv": false,
+     "rank": 25,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.6,
+     "n": 1102,
+     "lv": false,
+     "rank": 6,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030037",
+   "name": "HonorHealth Tempe Medical Center",
+   "city": "Phoenix",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 52.0,
+     "n": null,
+     "lv": false,
+     "rank": 37,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 53.0,
+     "n": null,
+     "lv": false,
+     "rank": 37,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 125,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "READM_30_HF": {
+     "v": 22.1,
+     "n": 25,
+     "lv": false,
+     "rank": 28,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.4,
+     "n": 57,
+     "lv": false,
+     "rank": 21,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030038",
+   "name": "HonorHealth Scottsdale Osborn Medical Center",
+   "city": "Scottsdale",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 76.0,
+     "n": null,
+     "lv": false,
+     "rank": 10,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 77.0,
+     "n": null,
+     "lv": false,
+     "rank": 8,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 431,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.0,
+     "n": 544,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.9,
+     "n": 592,
+     "lv": false,
+     "rank": 26,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030061",
+   "name": "Banner Boswell Medical Center",
+   "city": "Sun City",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 58.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 62.0,
+     "n": null,
+     "lv": false,
+     "rank": 27,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 884,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.2,
+     "n": 1409,
+     "lv": false,
+     "rank": 21,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.7,
+     "n": 1813,
+     "lv": false,
+     "rank": 31,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030065",
+   "name": "Banner Desert Medical Center",
+   "city": "Mesa",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 57.0,
+     "n": null,
+     "lv": false,
+     "rank": 35,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 58.0,
+     "n": null,
+     "lv": false,
+     "rank": 30,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 1116,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.2,
+     "n": 606,
+     "lv": false,
+     "rank": 7,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.6,
+     "n": 1265,
+     "lv": false,
+     "rank": 23,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030078",
+   "name": "Phoenix Indian Medical Center",
+   "city": "Phoenix",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 70.0,
+     "n": null,
+     "lv": false,
+     "rank": 24,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 192,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    }
+   }
+  },
+  {
+   "id": "030083",
+   "name": "Abrazo Scottsdale Campus",
+   "city": "Phoenix",
+   "system": "Abrazo (Tenet)",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 60.0,
+     "n": null,
+     "lv": false,
+     "rank": 28,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 54.0,
+     "n": null,
+     "lv": false,
+     "rank": 35,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 557,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.3,
+     "n": 116,
+     "lv": false,
+     "rank": 24,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.9,
+     "n": 328,
+     "lv": false,
+     "rank": 13,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030087",
+   "name": "HonorHealth Scottsdale Shea Medical Center",
+   "city": "Scottsdale",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 19,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 560,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 19.9,
+     "n": 864,
+     "lv": false,
+     "rank": 4,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.9,
+     "n": 844,
+     "lv": false,
+     "rank": 13,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030088",
+   "name": "Banner Baywood Medical Center",
+   "city": "Mesa",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 61.0,
+     "n": null,
+     "lv": false,
+     "rank": 27,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 57.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 695,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 22.2,
+     "n": 524,
+     "lv": false,
+     "rank": 29,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 15.7,
+     "n": 1378,
+     "lv": false,
+     "rank": 1,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030089",
+   "name": "Banner Thunderbird Medical Center",
+   "city": "Glendale",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 57.0,
+     "n": null,
+     "lv": false,
+     "rank": 35,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 57.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 1165,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 4.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 19.8,
+     "n": 828,
+     "lv": false,
+     "rank": 2,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.6,
+     "n": 1508,
+     "lv": false,
+     "rank": 6,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030092",
+   "name": "HonorHealth Deer Valley Medical Center",
+   "city": "Phoenix",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 72.0,
+     "n": null,
+     "lv": false,
+     "rank": 16,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 558,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.6,
+     "n": 571,
+     "lv": false,
+     "rank": 15,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.4,
+     "n": 769,
+     "lv": false,
+     "rank": 21,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030093",
+   "name": "Banner Del E. Webb Medical Center",
+   "city": "Sun City West",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 59.0,
+     "n": null,
+     "lv": false,
+     "rank": 30,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 59.0,
+     "n": null,
+     "lv": false,
+     "rank": 29,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 865,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.2,
+     "n": 1181,
+     "lv": false,
+     "rank": 7,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.3,
+     "n": 1748,
+     "lv": false,
+     "rank": 28,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030094",
+   "name": "Abrazo Arrowhead Hospital",
+   "city": "Glendale",
+   "system": "Abrazo (Tenet)",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 58.0,
+     "n": null,
+     "lv": false,
+     "rank": 31,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 56.0,
+     "n": null,
+     "lv": false,
+     "rank": 34,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 1617,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.5,
+     "n": 552,
+     "lv": false,
+     "rank": 14,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.5,
+     "n": 518,
+     "lv": false,
+     "rank": 5,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030103",
+   "name": "Mayo Clinic Hospital",
+   "city": "Phoenix",
+   "system": "Mayo Clinic",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 91.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 93.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 5.0,
+     "n": 1947,
+     "lv": false,
+     "rank": 1,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 5.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 19.8,
+     "n": 776,
+     "lv": false,
+     "rank": 2,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.8,
+     "n": 1118,
+     "lv": false,
+     "rank": 10,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030105",
+   "name": "Banner Heart Hospital",
+   "city": "Mesa",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 19,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 21,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 913,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 19.9,
+     "n": 852,
+     "lv": false,
+     "rank": 4,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.1,
+     "n": 85,
+     "lv": false,
+     "rank": 17,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030107",
+   "name": "Arizona Spine And Joint Hospital",
+   "city": "Mesa",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 77.0,
+     "n": null,
+     "lv": false,
+     "rank": 8,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 81.0,
+     "n": null,
+     "lv": false,
+     "rank": 5,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 150,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    }
+   }
+  },
+  {
+   "id": "030108",
+   "name": "The Core Institute Specialty Hospital",
+   "city": "Phoenix",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 73.0,
+     "n": null,
+     "lv": false,
+     "rank": 14,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 75.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 245,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    }
+   }
+  },
+  {
+   "id": "030110",
+   "name": "Abrazo West Campus",
+   "city": "Goodyear",
+   "system": "Abrazo (Tenet)",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 49.0,
+     "n": null,
+     "lv": false,
+     "rank": 38,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 49.0,
+     "n": null,
+     "lv": false,
+     "rank": 38,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 1.0,
+     "n": 1040,
+     "lv": false,
+     "rank": 35,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.0,
+     "n": 467,
+     "lv": false,
+     "rank": 20,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.3,
+     "n": 653,
+     "lv": false,
+     "rank": 20,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030112",
+   "name": "Arizona Orthopedic And Surgical Specialty Hospital",
+   "city": "Phoenix",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 78.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 79.0,
+     "n": null,
+     "lv": false,
+     "rank": 7,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 390,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    }
+   }
+  },
+  {
+   "id": "030115",
+   "name": "Banner Estrella Medical Center",
+   "city": "Phoenix",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 67.0,
+     "n": null,
+     "lv": false,
+     "rank": 26,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 68.0,
+     "n": null,
+     "lv": false,
+     "rank": 25,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 882,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.4,
+     "n": 794,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 15.9,
+     "n": 879,
+     "lv": false,
+     "rank": 3,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030119",
+   "name": "Mercy Gilbert Medical Center",
+   "city": "Gilbert",
+   "system": "Dignity Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 75.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 77.0,
+     "n": null,
+     "lv": false,
+     "rank": 8,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 553,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 5.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 22.3,
+     "n": 726,
+     "lv": false,
+     "rank": 30,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.7,
+     "n": 796,
+     "lv": false,
+     "rank": 25,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030121",
+   "name": "HonorHealth Four Peaks Medical Center",
+   "city": "Mesa",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 60.0,
+     "n": null,
+     "lv": false,
+     "rank": 28,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 60.0,
+     "n": null,
+     "lv": false,
+     "rank": 28,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 2.0,
+     "n": 688,
+     "lv": false,
+     "rank": 24,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 2.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.9,
+     "n": 202,
+     "lv": false,
+     "rank": 27,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.8,
+     "n": 274,
+     "lv": false,
+     "rank": 10,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030122",
+   "name": "Banner Gateway Medical Center",
+   "city": "Gilbert",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 69.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 73.0,
+     "n": null,
+     "lv": false,
+     "rank": 14,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 792,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.8,
+     "n": 189,
+     "lv": false,
+     "rank": 18,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.8,
+     "n": 729,
+     "lv": false,
+     "rank": 10,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030123",
+   "name": "HonorHealth Scottsdale Thompson Peak Medical Center",
+   "city": "Scottsdale",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 81.0,
+     "n": null,
+     "lv": false,
+     "rank": 4,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 84.0,
+     "n": null,
+     "lv": false,
+     "rank": 3,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 395,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 5.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 19.4,
+     "n": 453,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.7,
+     "n": 538,
+     "lv": false,
+     "rank": 9,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030130",
+   "name": "Banner Ironwood Medical Center",
+   "city": "Queen Creek",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 19,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 21,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 467,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.4,
+     "n": 170,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.6,
+     "n": 483,
+     "lv": false,
+     "rank": 23,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030134",
+   "name": "Banner Goldfield Medical Center",
+   "city": "Apache Junction",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 69.0,
+     "n": null,
+     "lv": false,
+     "rank": 23,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 71.0,
+     "n": null,
+     "lv": false,
+     "rank": 21,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 129,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 5.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.8,
+     "n": 41,
+     "lv": false,
+     "rank": 26,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.2,
+     "n": 172,
+     "lv": false,
+     "rank": 19,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030136",
+   "name": "Dignity Health Arizona General Hospital",
+   "city": "Laveen",
+   "system": "Dignity Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 80.0,
+     "n": null,
+     "lv": false,
+     "rank": 5,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 73.0,
+     "n": null,
+     "lv": false,
+     "rank": 14,
+     "of": 38
+    },
+    "READM_30_PN": {
+     "v": 16.6,
+     "n": 96,
+     "lv": false,
+     "rank": 6,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030138",
+   "name": "City Of Hope Cancer Center Phoenix",
+   "city": "Goodyear",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 82.0,
+     "n": null,
+     "lv": false,
+     "rank": 3,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 86.0,
+     "n": null,
+     "lv": false,
+     "rank": 2,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 239,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 4.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    }
+   }
+  },
+  {
+   "id": "030139",
+   "name": "Dignity Health Arizona General Hospital",
+   "city": "Mesa",
+   "system": "Dignity Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 78.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 81.0,
+     "n": null,
+     "lv": false,
+     "rank": 5,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 596,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 5.0,
+     "n": null,
+     "lv": false,
+     "rank": 1,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.2,
+     "n": 88,
+     "lv": false,
+     "rank": 7,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 16.2,
+     "n": 328,
+     "lv": false,
+     "rank": 4,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030146",
+   "name": "HonorHealth Sonoran Crossing Medical Center",
+   "city": "Phoenix",
+   "system": "HonorHealth",
+   "focus": true,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 86.0,
+     "n": null,
+     "lv": false,
+     "rank": 2,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 84.0,
+     "n": null,
+     "lv": false,
+     "rank": 3,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 4.0,
+     "n": 462,
+     "lv": false,
+     "rank": 2,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 4.0,
+     "n": null,
+     "lv": false,
+     "rank": 6,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 21.2,
+     "n": 144,
+     "lv": false,
+     "rank": 21,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 17.1,
+     "n": 258,
+     "lv": false,
+     "rank": 17,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030147",
+   "name": "Banner Ocotillo Medical Center",
+   "city": "Chandler",
+   "system": "Banner Health",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 74.0,
+     "n": null,
+     "lv": false,
+     "rank": 12,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 74.0,
+     "n": null,
+     "lv": false,
+     "rank": 13,
+     "of": 38
+    },
+    "H_STAR_RATING": {
+     "v": 3.0,
+     "n": 416,
+     "lv": false,
+     "rank": 9,
+     "of": 36
+    },
+    "OVERALL_STAR": {
+     "v": 3.0,
+     "n": null,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_HF": {
+     "v": 20.4,
+     "n": 166,
+     "lv": false,
+     "rank": 11,
+     "of": 31
+    },
+    "READM_30_PN": {
+     "v": 18.1,
+     "n": 319,
+     "lv": false,
+     "rank": 27,
+     "of": 32
+    }
+   }
+  },
+  {
+   "id": "030152",
+   "name": "Exceptional Community Hospital Maricopa",
+   "city": "Maricopa",
+   "system": "Independent / Other",
+   "focus": false,
+   "values": {
+    "H_HSP_RATING_9_10": {
+     "v": 77.0,
+     "n": null,
+     "lv": false,
+     "rank": 8,
+     "of": 38
+    },
+    "H_RECMND_DY": {
+     "v": 77.0,
+     "n": null,
+     "lv": false,
+     "rank": 8,
+     "of": 38
+    }
+   }
+  }
+ ],
+ "alerts": [],
+ "data_quality": {
+  "counts": {
+   "PASS": 26,
+   "WARN": 0,
+   "FAIL": 0
+  },
+  "passed": true,
+  "results": [
+   {
+    "check": "row_volume",
+    "dataset": "hospitals",
+    "status": "PASS",
+    "detail": "87 hospitals (minimum 50)"
+   },
+   {
+    "check": "row_volume",
+    "dataset": "hcahps",
+    "status": "PASS",
+    "detail": "87 hospitals (minimum 50)"
+   },
+   {
+    "check": "row_volume",
+    "dataset": "readmits",
+    "status": "PASS",
+    "detail": "87 hospitals (minimum 50)"
+   },
+   {
+    "check": "unique_key",
+    "dataset": "hospitals",
+    "status": "PASS",
+    "detail": "0 duplicate facility_id"
+   },
+   {
+    "check": "unique_key",
+    "dataset": "hcahps",
+    "status": "PASS",
+    "detail": "0 duplicate facility+measure rows"
+   },
+   {
+    "check": "unique_key",
+    "dataset": "readmits",
+    "status": "PASS",
+    "detail": "0 duplicate facility+measure rows"
+   },
+   {
+    "check": "referential_integrity",
+    "dataset": "hcahps",
+    "status": "PASS",
+    "detail": "0 facility_ids not in hospital dimension"
+   },
+   {
+    "check": "referential_integrity",
+    "dataset": "readmits",
+    "status": "PASS",
+    "detail": "0 facility_ids not in hospital dimension"
+   },
+   {
+    "check": "measures_present",
+    "dataset": "hcahps",
+    "status": "PASS",
+    "detail": "all expected measures present"
+   },
+   {
+    "check": "measures_present",
+    "dataset": "readmits",
+    "status": "PASS",
+    "detail": "all expected measures present"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "H_HSP_RATING_9_10",
+    "status": "PASS",
+    "detail": "13% not reported (limit 45%)"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "H_RECMND_DY",
+    "status": "PASS",
+    "detail": "13% not reported (limit 45%)"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "H_STAR_RATING",
+    "status": "PASS",
+    "detail": "25% not reported (limit 45%)"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "READM_30_HF",
+    "status": "PASS",
+    "detail": "36% not reported (limit 45%)"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "READM_30_PN",
+    "status": "PASS",
+    "detail": "18% not reported (limit 45%)"
+   },
+   {
+    "check": "null_rate",
+    "dataset": "OVERALL_STAR",
+    "status": "PASS",
+    "detail": "40% not rated"
+   },
+   {
+    "check": "value_range",
+    "dataset": "H_HSP_RATING_9_10",
+    "status": "PASS",
+    "detail": "0 values outside [0, 100]"
+   },
+   {
+    "check": "value_range",
+    "dataset": "H_RECMND_DY",
+    "status": "PASS",
+    "detail": "0 values outside [0, 100]"
+   },
+   {
+    "check": "value_range",
+    "dataset": "H_STAR_RATING",
+    "status": "PASS",
+    "detail": "0 values outside [1, 5]"
+   },
+   {
+    "check": "value_range",
+    "dataset": "READM_30_HF",
+    "status": "PASS",
+    "detail": "0 values outside [0, 100]"
+   },
+   {
+    "check": "value_range",
+    "dataset": "READM_30_PN",
+    "status": "PASS",
+    "detail": "0 values outside [0, 100]"
+   },
+   {
+    "check": "reporting_period",
+    "dataset": "H_HSP_RATING_9_10",
+    "status": "PASS",
+    "detail": "1 distinct period(s), ending 09/30/2025"
+   },
+   {
+    "check": "reporting_period",
+    "dataset": "H_RECMND_DY",
+    "status": "PASS",
+    "detail": "1 distinct period(s), ending 09/30/2025"
+   },
+   {
+    "check": "reporting_period",
+    "dataset": "H_STAR_RATING",
+    "status": "PASS",
+    "detail": "1 distinct period(s), ending 09/30/2025"
+   },
+   {
+    "check": "reporting_period",
+    "dataset": "READM_30_HF",
+    "status": "PASS",
+    "detail": "1 distinct period(s), ending 06/30/2025"
+   },
+   {
+    "check": "reporting_period",
+    "dataset": "READM_30_PN",
+    "status": "PASS",
+    "detail": "1 distinct period(s), ending 06/30/2025"
+   }
+  ]
+ },
+ "releases": [
+  {
+   "release_id": "2026-11-10",
+   "source": "snapshot",
+   "dq_pass": 1
+  }
+ ],
+ "history": [
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 56.25
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "H_RECMND_DY",
+   "avg": 53.25
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "H_STAR_RATING",
+   "avg": 1.5
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "OVERALL_STAR",
+   "avg": 2.25
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "READM_30_HF",
+   "avg": 21.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Abrazo (Tenet)",
+   "measure_id": "READM_30_PN",
+   "avg": 16.93
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 64.54
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "H_RECMND_DY",
+   "avg": 65.08
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "H_STAR_RATING",
+   "avg": 2.46
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "OVERALL_STAR",
+   "avg": 2.92
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "READM_30_HF",
+   "avg": 20.82
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Banner Health",
+   "measure_id": "READM_30_PN",
+   "avg": 17.29
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 75.4
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "H_RECMND_DY",
+   "avg": 75.6
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "H_STAR_RATING",
+   "avg": 3.25
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "OVERALL_STAR",
+   "avg": 4.5
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "READM_30_HF",
+   "avg": 21.15
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Dignity Health",
+   "measure_id": "READM_30_PN",
+   "avg": 17.18
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 71.25
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "H_RECMND_DY",
+   "avg": 71.75
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "H_STAR_RATING",
+   "avg": 2.88
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "OVERALL_STAR",
+   "avg": 3.29
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "READM_30_HF",
+   "avg": 20.68
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "HonorHealth",
+   "measure_id": "READM_30_PN",
+   "avg": 17.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Independent / Other",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 76.5
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Independent / Other",
+   "measure_id": "H_RECMND_DY",
+   "avg": 78.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Independent / Other",
+   "measure_id": "H_STAR_RATING",
+   "avg": 4.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Independent / Other",
+   "measure_id": "OVERALL_STAR",
+   "avg": 4.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 91.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "H_RECMND_DY",
+   "avg": 93.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "H_STAR_RATING",
+   "avg": 5.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "OVERALL_STAR",
+   "avg": 5.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "READM_30_HF",
+   "avg": 19.8
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Mayo Clinic",
+   "measure_id": "READM_30_PN",
+   "avg": 16.8
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "H_HSP_RATING_9_10",
+   "avg": 74.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "H_RECMND_DY",
+   "avg": 72.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "H_STAR_RATING",
+   "avg": 3.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "OVERALL_STAR",
+   "avg": 1.0
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "READM_30_HF",
+   "avg": 20.9
+  },
+  {
+   "release_id": "2026-11-10",
+   "health_system": "Valleywise Health",
+   "measure_id": "READM_30_PN",
+   "avg": 18.3
+  }
+ ]
+}

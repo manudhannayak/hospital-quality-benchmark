@@ -1,0 +1,45 @@
+# Pipeline configuration. Change the focus system or market here; no code edits needed.
+
+focus_system: HonorHealth
+market:
+  state: AZ
+  # Peer group = Phoenix metro acute-care hospitals (where HonorHealth competes)
+  counties: [MARICOPA, PINAL]
+  hospital_types: [Acute Care Hospitals]
+
+cms:
+  base_url: https://data.cms.gov/provider-data/api/1/datastore/query
+  page_size: 500
+  timeout_seconds: 60
+  datasets:
+    hospital_general_info:
+      id: xubh-q36u           # Hospital General Information (overall star rating)
+    hcahps:
+      id: dgck-syfz           # Patient survey (HCAHPS) - Hospital
+      measures: [H_STAR_RATING, H_RECMND_DY, H_HSP_RATING_9_10]
+    readmissions:
+      id: 632h-zaca           # Unplanned Hospital Visits - Hospital
+      measures: [READM_30_HF, READM_30_PN]
+
+# Human-readable labels and direction (does a higher value mean better?)
+measures:
+  OVERALL_STAR:      {label: CMS Overall Star Rating,            unit: stars, higher_is_better: true}
+  H_STAR_RATING:     {label: HCAHPS Patient Experience Star,     unit: stars, higher_is_better: true}
+  H_RECMND_DY:       {label: Would Definitely Recommend (%),     unit: pct,   higher_is_better: true}
+  H_HSP_RATING_9_10: {label: Rated Hospital 9-10 (%),            unit: pct,   higher_is_better: true}
+  READM_30_HF:       {label: Heart Failure 30-Day Readmit (%),   unit: pct,   higher_is_better: false}
+  READM_30_PN:       {label: Pneumonia 30-Day Readmit (%),       unit: pct,   higher_is_better: false}
+
+validation:
+  min_hospitals_per_dataset: 50     # AZ has ~87 hospitals; fewer means a broken pull
+  max_null_rate: 0.45               # small/tribal/critical-access sites legitimately report N/A
+  min_hcahps_surveys: 100           # below this, HCAHPS results are flagged as low-volume
+  min_readmit_denominator: 25       # CMS suppresses below 25 cases
+  value_ranges:
+    stars: [1, 5]
+    pct: [0, 100]
+
+alerts:
+  # Flag a hospital when it moves this much between CMS releases
+  star_change: 1
+  pct_change: 3.0

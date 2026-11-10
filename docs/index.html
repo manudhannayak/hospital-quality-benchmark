@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HonorHealth vs Phoenix Market | CMS Quality & Patient Experience Benchmark</title>
+<meta name="description" content="Automated BI pipeline benchmarking HonorHealth hospitals against the Phoenix market on CMS star ratings, HCAHPS patient experience and readmissions.">
+<style>
+:root{--focus:#6b2a6b;--focus-soft:#efe4ef;--peer:#a3abb5;--ink:#1c1e22;--ink2:#4c525c;--muted:#7a808a;
+--line:#e6e3e8;--bg:#f7f6f8;--card:#fff;--good:#1a7f4b;--bad:#b4342d;--q1:#d4eedd;--q2:#ebf6ef;--q3:#fbefe3;--q4:#f6d6d2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--focus)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+header.top{background:#fff;border-bottom:1px solid var(--line)}
+header.top .wrap{padding-top:28px;padding-bottom:22px}
+.eyebrow{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--focus);font-weight:650}
+h1{font-size:28px;line-height:1.2;margin:6px 0 8px;letter-spacing:-.01em}
+.lede{color:var(--ink2);max-width:760px;margin:0}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:4px 10px;border-radius:999px;background:#f1eff3;color:var(--ink2);border:1px solid var(--line)}
+.badge .dot{width:7px;height:7px;border-radius:50%;background:var(--good)}
+.badge.link{background:#fff;text-decoration:none;color:var(--focus);border-color:#d9c9d9}
+nav.sub{position:sticky;top:0;z-index:5;background:rgba(247,246,248,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav.sub .wrap{display:flex;gap:18px;overflow-x:auto;padding-top:10px;padding-bottom:10px}
+nav.sub a{font-size:13px;color:var(--ink2);text-decoration:none;white-space:nowrap}
+nav.sub a:hover{color:var(--focus)}
+section{padding:28px 0 4px}
+h2{font-size:19px;margin:0 0 4px;letter-spacing:-.005em}
+.hint{color:var(--muted);font-size:13px;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer;text-align:left;font:inherit;color:inherit;transition:border-color .15s,box-shadow .15s}
+.tile:hover{border-color:#cdb8cd}
+.tile[aria-pressed=true]{border-color:var(--focus);box-shadow:0 0 0 1px var(--focus)}
+.tile .l{font-size:12px;color:var(--ink2);min-height:34px;line-height:1.35}
+.tile .v{font-size:25px;font-weight:680;color:var(--focus);font-variant-numeric:tabular-nums}
+.tile .m{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.up{color:var(--good);font-weight:600}.down{color:var(--bad);font-weight:600}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 12px}
+.controls label{font-size:12px;color:var(--ink2)}
+select{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+.grid2{display:grid;grid-template-columns:5fr 7fr;gap:14px}
+.ctitle{font-size:14px;font-weight:620;margin:0}
+.csub{font-size:12px;color:var(--muted);margin:2px 0 10px}
+svg text{font-family:inherit}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--ink2);margin-top:8px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 8px;border-bottom:1px solid #efedf0;text-align:left}
+th{font-size:12px;color:var(--ink2);font-weight:600;background:#faf9fb}
+td.c,th.c{text-align:center}
+.heat td.c{font-variant-numeric:tabular-nums;cursor:default}
+.heat td.c small{display:block;font-size:11px;color:var(--ink2)}
+.heat tr.row{cursor:pointer}.heat tr.row:hover td:first-child{color:var(--focus)}
+.heat tr.sel td:first-child{color:var(--focus);font-weight:650}
+.q1{background:var(--q1)}.q2{background:var(--q2)}.q3{background:var(--q3)}.q4{background:var(--q4)}.lv{opacity:.5}
+.profile{margin-top:14px}
+.pbar{display:grid;grid-template-columns:190px 1fr 120px;gap:10px;align-items:center;font-size:13px;padding:5px 0;border-bottom:1px solid #f2f0f3}
+.pbar:last-child{border-bottom:0}
+.summary{white-space:pre-wrap;line-height:1.6;font-size:14px;border-left:4px solid var(--focus)}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;background:#f1eff3;color:var(--ink2);margin-left:6px;vertical-align:2px;font-weight:500}
+.status{font-weight:650;font-size:12px}.PASS{color:var(--good)}.WARN{color:#a66300}.FAIL{color:var(--bad)}
+details summary{cursor:pointer;color:var(--focus);font-size:13px;margin:8px 0}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.step{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;position:relative}
+.step b{display:block;font-size:13px;margin-bottom:3px}
+.step span{font-size:12px;color:var(--ink2)}
+.step .n{position:absolute;top:10px;right:12px;font-size:11px;color:var(--muted)}
+#tip{position:fixed;pointer-events:none;background:#1c1e22;color:#fff;font-size:12px;line-height:1.45;padding:8px 10px;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.18);opacity:0;transition:opacity .08s;max-width:280px;z-index:20}
+#tip b{font-weight:620}
+footer{color:var(--muted);font-size:12px;padding:30px 0 50px;line-height:1.6}
+.err{background:#fff3f2;border:1px solid #f0c8c4;color:var(--bad);padding:12px 14px;border-radius:8px}
+@media (max-width:980px){.tiles{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}.flow{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}.pbar{grid-template-columns:120px 1fr 90px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="eyebrow">Automated BI pipeline · public CMS data</div>
+  <h1>HonorHealth vs the Phoenix Market: Quality &amp; Patient Experience</h1>
+  <p class="lede">HonorHealth's hospitals benchmarked against every Phoenix-metro acute-care hospital on CMS star ratings,
+  HCAHPS patient experience and 30-day readmissions. Refreshed automatically from the CMS Provider Data API,
+  checked by a data quality gate, and published here on each run.</p>
+  <div class="badges" id="badges"></div>
+</div></header>
+<nav class="sub"><div class="wrap">
+  <a href="#scorecard">Scorecard</a><a href="#compare">Systems &amp; market</a><a href="#campuses">Campus heatmap</a>
+  <a href="#summary">Summary &amp; alerts</a><a href="#quality">Data quality</a><a href="#how">How it works</a>
+</div></nav>
+
+<main class="wrap">
+<div id="app"></div>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const REPO = "https://github.com/manudhannayak/hospital-quality-benchmark";
+const ORDER = ["OVERALL_STAR","H_STAR_RATING","H_RECMND_DY","H_HSP_RATING_9_10","READM_30_HF","READM_30_PN"];
+const SHORT = {OVERALL_STAR:"Overall ★",H_STAR_RATING:"HCAHPS ★",H_RECMND_DY:"Recommend %",H_HSP_RATING_9_10:"Rated 9-10 %",READM_30_HF:"HF readmit %",READM_30_PN:"PN readmit %"};
+const FOCUS = "#6b2a6b", PEER = "#a3abb5";
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = (v, unit) => v == null ? "n/a" : unit === "stars" ? (+v).toFixed(v % 1 ? 2 : 0).replace(/\.?0+$/,"") : (+v).toFixed(1) + "%";
+const fmt1 = (v, unit) => v == null ? "n/a" : unit === "stars" ? (+v).toFixed(1) : (+v).toFixed(1) + "%";
+
+const tip = $("#tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e){ const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8); const y = Math.min(e.clientY + 14, innerHeight - tip.offsetHeight - 8); tip.style.left = x + "px"; tip.style.top = y + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+function bindTips(root){ root.querySelectorAll("[data-tip]").forEach(el => {
+  el.addEventListener("mouseenter", e => showTip(e, el.dataset.tip));
+  el.addEventListener("mousemove", moveTip); el.addEventListener("mouseleave", hideTip); }); }
+
+let D, M, state = {measure: "H_RECMND_DY", system: "all", hospital: null};
+
+fetch("data.json", {cache: "no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { D = d; M = Object.fromEntries(d.measures.map(m => [m.measure_id, m])); init(); })
+  .catch(err => { $("#app").innerHTML = `<div class="err" style="margin-top:24px">Could not load data.json (${esc(err.message)}). If you opened this file directly, serve the folder instead: <code>python -m http.server -d docs</code></div>`; });
+
+function init(){
+  const dq = D.data_quality.counts, gen = new Date(D.generated_at);
+  $("#badges").innerHTML = `
+    <span class="badge"><span class="dot" style="background:${dq.FAIL ? "var(--bad)" : "var(--good)"}"></span>Quality gate: ${dq.PASS} passed · ${dq.WARN} warn · ${dq.FAIL} fail</span>
+    <span class="badge">Last refresh ${gen.toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"})}</span>
+    <span class="badge">${D.hospitals.filter(h=>h.focus).length} HonorHealth campuses · ${D.hospitals.length} market hospitals</span>
+    <span class="badge">Source: ${D.source === "cms" ? "live CMS API pull" : "CMS snapshot"}</span>
+    <a class="badge link" href="${REPO}" target="_blank" rel="noopener">View code on GitHub ↗</a>
+    <a class="badge link" href="report.html" target="_blank" rel="noopener">Emailed digest ↗</a>`;
+  const focusHosp = D.hospitals.filter(h => h.focus).sort((a,b)=>a.name.localeCompare(b.name));
+  state.hospital = focusHosp[0]?.id;
+  $("#app").innerHTML = `
+  <section id="scorecard"><h2>System scorecard</h2>
+    <p class="hint">HonorHealth average vs the Phoenix-market average. Select a measure to drive the charts below.</p>
+    <div class="tiles" id="tiles"></div></section>
+  <section id="compare"><h2 id="mtitle"></h2><p class="hint" id="mhint"></p>
+    <div class="controls"><label for="sys">Highlight system</label><select id="sys"></select></div>
+    <div class="grid2">
+      <div class="card"><p class="ctitle">Health systems compared</p><p class="csub" id="syssub"></p><div id="syschart"></div></div>
+      <div class="card"><p class="ctitle">Every market hospital, ranked</p><p class="csub" id="lbsub"></p><div id="leader"></div>
+        <div class="legend"><span><span class="sw" style="background:${FOCUS}"></span>HonorHealth</span><span><span class="sw" style="background:#3f6fb0"></span>Highlighted system</span><span><span class="sw" style="background:${PEER}"></span>Other hospitals</span><span>┆ market average</span></div></div>
+    </div></section>
+  <section id="campuses"><h2>HonorHealth campus heatmap</h2>
+    <p class="hint">Each cell shows the value and rank within the Phoenix market. Green = top half, red = bottom quartile. Faded = low volume (under 100 surveys or 25 cases). Click a campus for its profile.</p>
+    <div class="card" style="padding:0;overflow-x:auto"><table class="heat" id="heat"></table></div>
+    <div class="card profile" id="profile"></div></section>
+  <section id="summary"><h2>Executive summary <span class="tag">${D.summary_method === "llm" ? "AI-written, every number checked against source" : "auto-generated from the data"}</span></h2>
+    <p class="hint">Generated on every run from the same facts that drive the charts.</p>
+    <div class="card summary">${esc(D.summary)}</div>
+    <h2 style="margin-top:22px;font-size:16px">Alerts since last CMS release</h2><div id="alerts"></div></section>
+  <section id="quality"><h2>Data quality gate</h2>
+    <p class="hint">Every refresh is checked before it can reach this page. Any failure stops the publish, keeps the last good release live, and posts a Slack alert.</p>
+    <div class="card" id="dq"></div></section>
+  <section id="how"><h2>How it works</h2><p class="hint">Python + SQL pipeline, scheduled on GitHub Actions. <a href="${REPO}" target="_blank" rel="noopener">Source code and Power BI model on GitHub.</a></p>
+    <div class="flow">
+      <div class="step"><span class="n">1</span><b>Extract</b><span>Paged pulls from the CMS Provider Data API with retries</span></div>
+      <div class="step"><span class="n">2</span><b>Validate</b><span>26 checks: volume, keys, integrity, ranges, suppression, periods</span></div>
+      <div class="step"><span class="n">3</span><b>Model</b><span>Star schema (dims + fact), history kept per CMS release</span></div>
+      <div class="step"><span class="n">4</span><b>Analyze</b><span>SQL window functions rank hospitals by measure direction</span></div>
+      <div class="step"><span class="n">5</span><b>Narrate</b><span>LLM summary with a guardrail that rejects unsupported numbers</span></div>
+      <div class="step"><span class="n">6</span><b>Deliver</b><span>This site, Power BI extracts, Slack and email digest</span></div>
+    </div></section>
+  <footer>Data: CMS Provider Data Catalog (Hospital General Information, HCAHPS Patient Survey, Unplanned Hospital Visits).
+    Reporting periods: ${Object.entries(D.reporting_periods).map(([k,v]) => esc(SHORT[k] || k) + " " + esc(v)).join(" · ")}.
+    Market = ${esc(D.market)}. System averages are unweighted means of each system's reporting hospitals.
+    Independent portfolio project built on public data; not affiliated with HonorHealth or CMS.</footer>`;
+
+  const systems = [...new Set(D.hospitals.map(h => h.system))].filter(s => s !== D.focus_system).sort();
+  $("#sys").innerHTML = `<option value="all">None</option>` + systems.map(s => `<option>${esc(s)}</option>`).join("");
+  $("#sys").onchange = e => { state.system = e.target.value; renderMeasure(); };
+  renderTiles(); renderMeasure(); renderHeat(); renderProfile(); renderAlerts(); renderDQ();
+}
+
+function sc(mid){ return D.system_scorecard.find(s => s.measure_id === mid); }
+
+function renderTiles(){
+  $("#tiles").innerHTML = ORDER.filter(sc).map(mid => {
+    const s = sc(mid), better = s.gap_vs_market > 0;
+    return `<button class="tile" data-m="${mid}" aria-pressed="${mid === state.measure}">
+      <div class="l">${esc(s.label)}</div><div class="v">${fmt1(s.focus_avg, s.unit)}</div>
+      <div class="m">Market ${fmt1(s.market_avg, s.unit)} · <span class="${better ? "up" : "down"}">${better ? "▲ better" : "▼ worse"}</span></div>
+      <div class="m">#${s.focus_rank_among_systems} of ${s.systems_compared} systems</div></button>`;
+  }).join("");
+  document.querySelectorAll(".tile").forEach(t => t.onclick = () => {
+    state.measure = t.dataset.m;
+    document.querySelectorAll(".tile").forEach(x => x.setAttribute("aria-pressed", x === t));
+    renderMeasure();
+  });
+}
+
+function renderMeasure(){
+  const s = sc(state.measure), m = M[state.measure], hib = !!m.higher_is_better;
+  $("#mtitle").textContent = s.label;
+  $("#mhint").textContent = (hib ? "Higher is better. " : "Lower is better. ") +
+    `HonorHealth ranks #${s.focus_rank_among_systems} of ${s.systems_compared} systems; ${s.leader_system} leads at ${fmt1(s.leader_avg, s.unit)}.`;
+
+  // --- Systems bar chart (horizontal, best first) ---
+  const sys = Object.entries(s.system_avgs);
+  const W = 420, rowH = 30, padL = 128, padR = 54, H = sys.length * rowH + 26;
+  const vals = sys.map(d => d[1]).concat([s.market_avg]);
+  const lo = s.unit === "stars" ? 0 : Math.max(0, Math.floor(Math.min(...vals) - 3));
+  const hi = s.unit === "stars" ? 5 : Math.ceil(Math.max(...vals) + 1);
+  const x = v => padL + (v - lo) / (hi - lo) * (W - padL - padR);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(s.label)} by health system">`;
+  sys.forEach(([name, v], i) => {
+    const y = i * rowH + 6, isF = name === D.focus_system, isH = name === state.system;
+    const col = isF ? FOCUS : isH ? "#3f6fb0" : PEER;
+    const t = `<b>${esc(name)}</b><br>${esc(s.label)}: ${fmt1(v, s.unit)}<br>Market avg: ${fmt1(s.market_avg, s.unit)}`;
+    svg += `<g data-tip="${esc(t)}"><rect x="0" y="${y-3}" width="${W}" height="${rowH}" fill="transparent"/>
+      <text x="${padL-8}" y="${y+14}" text-anchor="end" font-size="12" fill="${isF ? FOCUS : "#4c525c"}" font-weight="${isF ? 650 : 400}">${esc(name)}</text>
+      <rect x="${padL}" y="${y+3}" width="${Math.max(2, x(v)-padL)}" height="16" rx="3" fill="${col}"/>
+      <text x="${x(v)+6}" y="${y+15}" font-size="12" fill="#1c1e22" style="font-variant-numeric:tabular-nums">${fmt1(v, s.unit)}</text></g>`;
+  });
+  const mx = x(s.market_avg);
+  svg += `<line x1="${mx}" x2="${mx}" y1="0" y2="${H-20}" stroke="#1c1e22" stroke-dasharray="3 3" stroke-width="1"/>
+    <text x="${mx}" y="${H-6}" font-size="11" text-anchor="middle" fill="#4c525c">market avg ${fmt1(s.market_avg, s.unit)}</text></svg>`;
+  $("#syschart").innerHTML = svg; $("#syssub").textContent = "Average of each system's reporting hospitals in the Phoenix market";
+  bindTips($("#syschart"));
+
+  // --- Leaderboard: every market hospital ---
+  const rows = D.hospitals.filter(h => h.values[state.measure]).map(h => ({h, d: h.values[state.measure]}))
+    .sort((a,b) => a.d.rank - b.d.rank || a.h.name.localeCompare(b.h.name));
+  const LW = 640, rh = 17, lp = 262, rp = 60, LH = rows.length * rh + 24;
+  const lvals = rows.map(r => r.d.v);
+  const llo = s.unit === "stars" ? 0 : Math.max(0, Math.floor(Math.min(...lvals) - 2));
+  const lhi = s.unit === "stars" ? 5 : Math.ceil(Math.max(...lvals) + 1);
+  const lx = v => lp + (v - llo) / (lhi - llo) * (LW - lp - rp);
+  let ls = `<svg viewBox="0 0 ${LW} ${LH}" width="100%" role="img" aria-label="All market hospitals ranked by ${esc(s.label)}">`;
+  rows.forEach(({h, d}, i) => {
+    const y = i * rh + 2, isH = h.system === state.system;
+    const col = h.focus ? FOCUS : isH ? "#3f6fb0" : PEER;
+    const name = h.name.length > 33 ? h.name.slice(0, 32) + "…" : h.name;
+    const t = `<b>${esc(h.name)}</b><br>${esc(h.system)}<br>${esc(s.label)}: ${fmt1(d.v, s.unit)}<br>Rank #${d.rank} of ${d.of}` +
+      (d.n != null ? `<br>${s.unit === "stars" && state.measure !== "OVERALL_STAR" ? "Surveys" : "Cases"}: ${d.n.toLocaleString()}` : "") + (d.lv ? "<br><i>Low volume</i>" : "");
+    ls += `<g data-tip="${esc(t)}" opacity="${d.lv ? .55 : 1}"><rect x="0" y="${y}" width="${LW}" height="${rh}" fill="transparent"/>
+      <text x="${lp-28}" y="${y+12}" text-anchor="end" font-size="11" fill="${h.focus ? FOCUS : "#4c525c"}" font-weight="${h.focus ? 650 : 400}">${esc(name)}</text>
+      <text x="${lp-6}" y="${y+12}" text-anchor="end" font-size="10.5" fill="#7a808a">#${d.rank}</text>
+      <rect x="${lp}" y="${y+3}" width="${Math.max(2, lx(d.v)-lp)}" height="11" rx="2.5" fill="${col}"/>
+      <text x="${lx(d.v)+5}" y="${y+12}" font-size="10.5" fill="#1c1e22">${fmt1(d.v, s.unit)}</text></g>`;
+  });
+  const lmx = lx(s.market_avg);
+  ls += `<line x1="${lmx}" x2="${lmx}" y1="0" y2="${LH-18}" stroke="#1c1e22" stroke-dasharray="3 3"/>
+    <text x="${lmx}" y="${LH-4}" font-size="11" text-anchor="middle" fill="#4c525c">market avg ${fmt1(s.market_avg, s.unit)}</text></svg>`;
+  $("#leader").innerHTML = ls;
+  $("#lbsub").textContent = `${rows.length} hospitals reporting · ${hib ? "highest" : "lowest"} first · hover for details`;
+  bindTips($("#leader"));
+}
+
+function quart(d){ const p = (d.rank - 1) / Math.max(d.of - 1, 1); return p <= .25 ? "q1" : p <= .5 ? "q2" : p <= .75 ? "q3" : "q4"; }
+
+function renderHeat(){
+  const hs = D.hospitals.filter(h => h.focus).sort((a,b) => a.name.localeCompare(b.name));
+  $("#heat").innerHTML = `<tr><th>Campus</th>${ORDER.map(m => `<th class="c">${SHORT[m]}</th>`).join("")}</tr>` +
+    hs.map(h => `<tr class="row${h.id === state.hospital ? " sel" : ""}" data-id="${h.id}"><td>${esc(h.name.replace("HonorHealth ", ""))}</td>${ORDER.map(mid => {
+      const d = h.values[mid];
+      if (!d) return `<td class="c" style="color:#aaa">n/a</td>`;
+      const t = `<b>${esc(h.name)}</b><br>${esc(M[mid].measure_label)}: ${fmt1(d.v, M[mid].unit)}<br>Rank #${d.rank} of ${d.of} in market` + (d.lv ? "<br><i>Low volume</i>" : "");
+      return `<td class="c ${quart(d)}${d.lv ? " lv" : ""}" data-tip="${esc(t)}">${fmt(d.v, M[mid].unit)}<small>#${d.rank}/${d.of}</small></td>`;
+    }).join("")}</tr>`).join("");
+  document.querySelectorAll("#heat tr.row").forEach(r => r.onclick = () => { state.hospital = r.dataset.id; renderHeat(); renderProfile(); });
+  bindTips($("#heat"));
+}
+
+function renderProfile(){
+  const h = D.hospitals.find(x => x.id === state.hospital); if (!h) return;
+  const rows = ORDER.map(mid => {
+    const d = h.values[mid], s = sc(mid), m = M[mid];
+    if (!d) return `<div class="pbar"><span>${esc(m.measure_label)}</span><span style="color:#aaa">Not reported by CMS</span><span></span></div>`;
+    const lo = m.unit === "stars" ? 0 : 0, hi = m.unit === "stars" ? 5 : 100;
+    const pct = v => (v - lo) / (hi - lo) * 100;
+    const better = m.higher_is_better ? d.v > s.market_avg : d.v < s.market_avg;
+    return `<div class="pbar"><span>${esc(m.measure_label)}</span>
+      <span style="position:relative;height:14px;background:#f1eff3;border-radius:3px">
+        <span style="position:absolute;left:0;top:0;bottom:0;width:${pct(d.v)}%;background:${FOCUS};border-radius:3px;opacity:${d.lv ? .5 : 1}"></span>
+        <span style="position:absolute;left:${pct(s.market_avg)}%;top:-3px;bottom:-3px;border-left:2px dashed #1c1e22" title="market avg"></span></span>
+      <span style="font-variant-numeric:tabular-nums">${fmt1(d.v, m.unit)} <span class="${better ? "up" : "down"}">${better ? "▲" : "▼"}</span> <span style="color:#7a808a">#${d.rank}/${d.of}</span></span></div>`;
+  }).join("");
+  $("#profile").innerHTML = `<p class="ctitle">${esc(h.name)} <span class="tag">${esc(h.city || "")}</span></p>
+    <p class="csub">Bar = this campus · dashed line = Phoenix-market average · ▲ better / ▼ worse than market · rank within market</p>${rows}`;
+}
+
+function renderAlerts(){
+  const a = D.alerts;
+  $("#alerts").innerHTML = !a.length
+    ? `<div class="card" style="color:#4c525c">No hospital moved past the alert thresholds (±1 star or ±3 points) since the previous CMS release. ${D.releases.length < 2 ? "History builds up with each scheduled refresh." : ""}</div>`
+    : `<div class="card" style="padding:0"><table><tr><th>Hospital</th><th>System</th><th>Measure</th><th class="c">Prior</th><th class="c">Now</th><th class="c">Change</th></tr>${
+      a.map(x => `<tr><td>${esc(x.hospital)}</td><td>${esc(x.system)}</td><td>${esc(x.measure)}</td><td class="c">${x.prior}</td><td class="c">${x.current}</td><td class="c">${x.change > 0 ? "+" : ""}${x.change}</td></tr>`).join("")}</table></div>`;
+}
+
+function renderDQ(){
+  const r = D.data_quality.results, c = D.data_quality.counts;
+  const byCheck = {};
+  r.forEach(x => (byCheck[x.check] = byCheck[x.check] || []).push(x));
+  $("#dq").innerHTML = `<table><tr><th>Check</th><th class="c">Passed</th><th>What it protects against</th></tr>${Object.entries(byCheck).map(([k, xs]) => {
+    const why = {row_volume:"A partial API pull overwriting a full one", unique_key:"Double-counted hospitals or measures", referential_integrity:"Measures for hospitals missing from the dimension", measures_present:"CMS renaming or retiring a measure", null_rate:"A spike in suppressed results", value_range:"Bad parses (e.g. a 140% rate)", reporting_period:"Mixed reporting periods in one release"}[k] || "";
+    const bad = xs.filter(x => x.status !== "PASS");
+    return `<tr><td>${esc(k.replace(/_/g, " "))}</td><td class="c"><span class="status ${bad.length ? bad[0].status : "PASS"}">${xs.length - bad.length}/${xs.length}</span></td><td style="color:#4c525c">${why}</td></tr>`;
+  }).join("")}</table>
+  <details><summary>Show all ${r.length} check results</summary><table><tr><th>Check</th><th>Dataset</th><th>Status</th><th>Detail</th></tr>${
+    r.map(x => `<tr><td>${esc(x.check)}</td><td>${esc(x.dataset)}</td><td class="status ${x.status}">${x.status}</td><td>${esc(x.detail)}</td></tr>`).join("")}</table></details>`;
+}
+</script>
+</body>
+</html>
